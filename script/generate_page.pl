@@ -28,7 +28,6 @@ save_page("/overview.html");
 sub save_page {
   my( $route ) = @_;
   my $page = `perl $FindBin::Bin/pcms get $route`;
-  print $page;
   open my $fh, '>', "$base_dir/$sub_page/$route" or die $!."$base_dir/$sub_page/$route";
   print $fh $page;
 }
