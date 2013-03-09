@@ -6,26 +6,30 @@ var categories = new Object();
 var cat_array = new Array();
 
 jQuery(function(){
-	jQuery('div.category').each(function(){
-		var this_div = jQuery(this);
-		var name = this_div.children('.category_name').html();
-		categories[name] = this_div;
-                cat_array.unshift(name);
-	});
-
-
-	var grepper = /#(.+)$/;
-	var match = grepper.exec( document.location.href );
-	if( match ){
-	  var elements = match[1].split(/#/);
-	  switch_category(elements[0]);
-	  next_image(undefined,elements[1] );
-	}else{
-	  switch_category(cat_array[0]);
-	  next_image(undefined,0);
-	}
+    initialize_page();
   
 });
+
+function initialize_page(){
+  jQuery('div.category').each(function(){
+      var this_div = jQuery(this);
+      var name = this_div.children('.category_name').html();
+      categories[name] = this_div;
+      cat_array.unshift(name);
+      });
+
+
+  var grepper = /#(.+)$/;
+  var match = grepper.exec( document.location.href );
+  if( match ){
+    var elements = match[1].split(/#/);
+    switch_category(elements[0]);
+    next_image(undefined,elements[1] );
+  }else{
+    switch_category(cat_array[0]);
+    next_image(undefined,0);
+  }
+}
 
 
 function next_image(back,picture) {

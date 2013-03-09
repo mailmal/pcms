@@ -11,10 +11,10 @@ html, body {
 
 .picture_slide {
   position: fixed; 
-  top: -25%; 
-  left: -25%; 
-  width: 150%; 
-  height: 150%;
+  top: -30%; 
+  left: -30%; 
+  width: 160%; 
+  height: 160%;
 }
 
 .picture_slide img {
@@ -24,29 +24,29 @@ html, body {
   right: 0; 
   bottom: 0; 
   margin: auto; 
-  min-width: 75%;
-  min-height: 75%;
+  min-height: 66%;
+  max-height: 90%;
 }
 
 
 *.controls {
   position: absolute;
-  bottom: 0px;
-  left:300px;
-  width:500px;
-  height:70px;
+  bottom: 20px;
+  left:50px;
+  width:300px;
+  height:50px;
   z-index:999;
-background-color:#ff0000;
+  background-color:#334433;
 }
 
 *.description {
   position: absolute;
-  bottom: 0px;
-  left:900px;
-  width:500px;
-  height:150px;
+  bottom: 20px;
+  right:50px;
+  width:350px;
+  height:100px;
   z-index:999;
-  background-color:#ff0000;
+  background-color:#334433;
 }
 
 div.real_content {
@@ -66,20 +66,20 @@ div.real_content {
 	/* Theoretically for IE 8 & 9 (more valid) */	
 	/* ...but not required as filter works too */
 	/* should come BEFORE filter */
-	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
 	
 	/* This works in IE 8 & 9 too */
 	/* ... but also 5, 6, 7 */
-	filter: alpha(opacity=50);
+	filter: alpha(opacity=70);
 	
 	/* Older than Firefox 0.9 */
-	-moz-opacity:0.5;
+	-moz-opacity:0.7;
 	
 	/* Safari 1.x (pre WebKit!) */
-	-khtml-opacity: 0.5;
+	-khtml-opacity: 0.7;
     
 	/* Modern!
 	/* Firefox 0.9+, Safari 2?, Chrome any?
 	/* Opera 9+, IE 9+ */
-	opacity: 0.5;
+	opacity: 0.7;
 }
