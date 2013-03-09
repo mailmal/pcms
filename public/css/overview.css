@@ -1,0 +1,11 @@
+
+div.item {
+  width:75;
+  height:50;
+  float:left;
+}
+
+*.item img {
+  width:160;
+  height:90px;
+}
