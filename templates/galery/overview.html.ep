@@ -1,17 +1,17 @@
 
 <div id="inner_ov">
-<script type="text/javascript" src="/js/overview.js"></script>
-<link rel="stylesheet" type="text/css" href="/css/overview.css">
+<script type="text/javascript" src="<%=$sub_page%>/js/overview.js"></script>
+<link rel="stylesheet" type="text/css" href="<%=$sub_page%>/css/overview.css">
 
 % for my $category ( keys \%$items ){
 % my $index=-1;
   <div class="item category"><%= $category %></div>
 % for my $picture( @{$items->{$category}}){
-  % my $picture_src = "/galery/".$picture->{picture};
+  % my $picture_src = "$sub_page/galery/".$picture->{picture};
   % my $picture_dsc = $picture->{description};
   % $index++;
     <div class="item picture">
-      <a href="/<%= $category %>.html#<%= $index %>"><img src="<%=$picture_src%>"></a>
+      <a href="<%=$sub_page%>/<%= $category %>.html#<%= $index %>"><img src="<%=$picture_src%>"></a>
     </div>
  %}
 %}

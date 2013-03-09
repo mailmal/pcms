@@ -15,12 +15,14 @@ sub index {
   my $current_cattegory = $self->stash('category') || $categories[0];
   
   my @pictures = $galery->pictures($current_cattegory);
+  my $sub_page = $ENV{sub_page} || '';
 
   $self->render(
      template => 'galery/index',
      pictures => [@pictures],
      category => $current_cattegory,
      categories => [@categories],
+     sub_page  => $sub_page,
   )
 }
 
@@ -30,10 +32,13 @@ sub overview {
   my @categories = $galery->categories;
   require List::MoreUtils;
 
+  my $sub_page = $ENV{sub_page} || '';
+
   my %items = map { $_ => [$galery->pictures($_)] } @categories;
   return $self->render(
     template => 'galery/overview',
     items    => \%items,
+    sub_page  => $sub_page,
   );
 }
 

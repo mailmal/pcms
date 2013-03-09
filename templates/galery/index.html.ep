@@ -1,9 +1,9 @@
 % layout 'default';
 % title 'Galery';
 
-<script type="text/javascript" src="/js/jquery-1.9.1.min.js"></script>
-<script type="text/javascript" src="/js/galery.js"></script>
-<link rel="stylesheet" type="text/css" href="/css/galery.css">
+<script type="text/javascript" src="<%=$sub_page%>/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="<%=$sub_page%>/js/galery.js"></script>
+<link rel="stylesheet" type="text/css" href="<%=$sub_page%>/css/galery.css">
 
 
 <div class="visible_content">
@@ -18,7 +18,7 @@
 
 	       %for my $category( grep{$_ ne $category }@$categories ){
 		 <li>
-		   <a href="/<%=$category%>.html"><%=$category%></a>
+		   <a href="<%=$sub_page%>/<%=$category%>.html"><%=$category%></a>
 	         </li>
 	       %}
 
@@ -28,7 +28,7 @@
 	  </div>
       <a class="bck" href="javascript:next_image(true)">back</a> 
       <a class="fwd" href="javascript:next_image()">next</a> 
-      <a class="ovw" href="/overview.html">overview</a> 
+      <a class="ovw" href="<%=$sub_page%>/overview.html">overview</a> 
   </div>
 
 
@@ -44,7 +44,7 @@
   <div class="category">
     <span class="category_name"><%=$category %></span>
     % for my $picture ( sort { $a->{picture} cmp $b->{picture} } @$pictures ) {
-    %   my $picture_src = "/galery/".$picture->{picture};
+    %   my $picture_src = "$sub_page/galery/".$picture->{picture};
     %   my $picture_dsc = $picture->{description};
       <div class="real_content_picture">
 	<img src="<%=  $picture_src %>">
