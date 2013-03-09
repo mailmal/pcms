@@ -2,7 +2,7 @@ html, body {
    height:100%;
    min-height: 100%;
    margin:0px;
-   background-color:#110011;
+   background-color:#221122;
    color:#ffffff;
 }
 
@@ -151,3 +151,16 @@ div.real_content {
 	/* Opera 9+, IE 9+ */
 	opacity: 0.7;
 }
+
+
+
+*.inner_div {
+  display:none;
+  position:relative;
+  margin:100px auto;
+  z-index:999;
+  width:85%;
+  background-color:#000000
+}
+
+

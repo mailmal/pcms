@@ -14,6 +14,14 @@ jQuery(function(){
     jQuery('.link_list > ul').mouseleave(function(){
       jQuery(this).removeClass("hover");
       });
+    jQuery('a.ovw').unbind('click');
+    jQuery('a.ovw').click(
+      function(e){
+         e.preventDefault();
+         jQuery('.inner_div').load( jQuery(this).attr('href') );	
+	 return;
+      }  
+    );
   
 });
 
