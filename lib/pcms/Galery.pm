@@ -43,10 +43,11 @@ sub pictures {
   closedir $dh;
   my $type_regex = qr/\.(.+?)$/;
   @pictures = grep { my($type) = $_ =~ $type_regex; $types->{uc($type)}} @pictures;
+
   return map {{
     picture => $category.'/'.$_,
     description => $self->load_description($self->content_dir.'/'.$category.'/'.$_),
-  }} @pictures;
+  }} sort {$a cmp $b} @pictures;
 }
 
 sub content_dir {

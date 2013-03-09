@@ -12,6 +12,7 @@ sub startup {
   my $r = $self->routes;
 
   # Normal route to controller
+  $r->get('/overview/')->to('html#overview');
   $r->get('/')->to('html#index');
 }
 

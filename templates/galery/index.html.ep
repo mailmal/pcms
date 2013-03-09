@@ -9,35 +9,32 @@
 % my $first_desc    = "/galery/".$pictures->[0]->{description};
 
 <div class="visible_content">
-	<div class="picture_slide">
-	    <img src="<%=  $first_picture %>">
-        </div>
-	<div class="controls transparent">
-		<a class="cat_link" href="javascript:switch_category()"><%= $category %></a> 
-		<a href="javascript:next_image()">next</a> 
-		<a href="javascript:next_image(true)">back</a> 
-	</div>
+  <div class="picture_slide">
+  </div>
+  <div class="controls transparent">
+          <a class="cat_link" href="javascript:switch_category()"><%= $category %></a> 
+          <a href="javascript:next_image()">next</a> 
+          <a href="javascript:next_image(true)">back</a> 
+  </div>
 
-	<div class="description transparent">
-	   <%= $first_desc %>
-        </div>
+  <div class="description transparent">
+  </div>
 </div>
 
 <div class="real_content">
-% for my $category ( keys %{ $cat_data } ) {
-	% my $pictures = $cat_data->{ $category };
-          <div class="category">
-                <span class="category_name"><%=$category %></span>
-		% for my $picture ( @$pictures ) {
-		%   my $picture_src = "/galery/".$picture->{picture};
-		%   my $picture_dsc = $picture->{description};
-		  <div class="real_content_picture">
-			  <img src="<%=  $picture_src %>">
-			  <span><%=$picture_dsc %></span>
-		  </div>
-		%}
-	  </div>
-
+% for my $category ( sort {$a cmp $b} keys %{ $cat_data } ) {
+  % my $pictures = $cat_data->{ $category };
+    <div class="category">
+      <span class="category_name"><%=$category %></span>
+      % for my $picture ( sort { $a->{picture} cmp $b->{picture} } @$pictures ) {
+      %   my $picture_src = "/galery/".$picture->{picture};
+      %   my $picture_dsc = $picture->{description};
+        <div class="real_content_picture">
+          <img src="<%=  $picture_src %>">
+          <span><%=$picture_dsc %></span>
+        </div>
+      %}
+    </div>
 %}
 
 </div>
