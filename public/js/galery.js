@@ -1,12 +1,19 @@
 
 var current_picture = 0;
-var current_cattegory = 1;
+var current_cattegory = 0;
 
 var categories = new Object();
 var cat_array = new Array();
 
 jQuery(function(){
     initialize_page();
+    jQuery('.link_list > ul').mouseenter(function(){
+      jQuery(this).addClass("hover");
+      });
+
+    jQuery('.link_list > ul').mouseleave(function(){
+      jQuery(this).removeClass("hover");
+      });
   
 });
 
@@ -23,10 +30,8 @@ function initialize_page(){
   var match = grepper.exec( document.location.href );
   if( match ){
     var elements = match[1].split(/#/);
-    switch_category(elements[0]);
-    next_image(undefined,elements[1] );
+    next_image(undefined,elements[0] );
   }else{
-    switch_category(cat_array[0]);
     next_image(undefined,0);
   }
 }

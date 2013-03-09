@@ -2,6 +2,8 @@ html, body {
    height:100%;
    min-height: 100%;
    margin:0px;
+   background-color:#110011;
+   color:#ffffff;
 }
 
 *.visible_content {
@@ -35,8 +37,81 @@ html, body {
   left:50px;
   width:300px;
   height:50px;
-  z-index:999;
   background-color:#334433;
+  overflow:visible;
+}
+
+*.controls > a {
+  display:block;
+  position:absolute;
+  bottom:10px;
+  width: 40px;
+}
+
+*.controls > a.fwd {
+  left:110px;
+}
+
+*.controls > a.bck {
+  left:150px;
+}
+
+*.controls > a.ovw {
+  left:200px;
+}
+
+*.link_list {
+  width:100px;
+  position:absolute;
+  bottom:10px;
+  left:2px;
+}
+
+*.link_list > ul {
+  position:absolute;
+  bottom:0px;
+  left:0px;
+  list-style: none;
+  background-color:#665566;
+  margin:0px;
+  padding:0px;
+  width:100;
+}
+
+*.link_list ul li ul{
+  display:none;
+  list-style: none;
+  margin:0px;
+  padding:0px;
+}
+
+*.link_list ul:hover li ul{
+  background: #999;
+  border: #fff solid;
+  border-width: 1px;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+*.link_list ul.hover li ul{
+  background: #999;
+  border: #fff solid;
+  border-width: 1px;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+*.link_list a{
+  display:block;
+  height:50px;
+  width:90px;
+  padding:2px;
+  text-decoration:none;
+  background-color:#eeeeee;
 }
 
 *.description {
@@ -45,18 +120,11 @@ html, body {
   right:50px;
   width:350px;
   height:100px;
-  z-index:999;
   background-color:#334433;
 }
 
 div.real_content {
   display:none;
-}
-
-.transparent2 {
-	zoom: 1;
-	filter: alpha(opacity=50);
-	opacity: 0.5;
 }
 
 .transparent {

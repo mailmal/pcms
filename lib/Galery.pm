@@ -13,7 +13,20 @@ sub startup {
 
   # Normal route to controller
   $r->get('/overview/')->to('html#overview');
-  $r->get('/')->to('html#index');
+  $r->get('/')->to( controller => 'html', action => 'index');
+  $r->get('/index.html')->to('html#index');
+  $r->get('/overview.html')->to('html#overview');
+  for my $category ( $self->galery->categories ){
+    $r->get("/$category.html")->to( controller => 'html', action => 'index', category => $category);
+  }
+}
+
+sub galery {
+  my( $self ) = @_;
+  require pcms::Galery;
+  return pcms::Galery->new({
+     content_dir => File::Basename::dirname(__FILE__)."/../public/galery" ,
+  });
 }
 
 1;

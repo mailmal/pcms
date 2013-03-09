@@ -12,16 +12,15 @@ sub index {
   my $galery = $self->galery;
 
   my @categories = $galery->categories;
-  my $current_cattegory = $self->param('galery') || $categories[0];
+  my $current_cattegory = $self->stash('category') || $categories[0];
   
   my @pictures = $galery->pictures($current_cattegory);
 
-  my %data = map{ $_ => [$galery->pictures($_)]} @categories;
   $self->render(
      template => 'galery/index',
      pictures => [@pictures],
      category => $current_cattegory,
-     cat_data => \%data,
+     categories => [@categories],
   )
 }
 
