@@ -6435,3 +6435,1693 @@ $VAR2 = 'bilder2';
 [Sat Mar  9 14:29:31 2013] [debug] Rendering template "galery/index.html.ep".
 [Sat Mar  9 14:29:31 2013] [debug] Rendering template "layouts/default.html.ep".
 [Sat Mar  9 14:29:31 2013] [debug] 200 OK (0.025401s, 39.369/s).
+[Sat Mar  9 14:31:54 2013] [debug] GET /bilder2.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 14:31:54 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 14:31:54 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 14:31:54 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 14:31:54 2013] [debug] 200 OK (0.002105s, 475.059/s).
+[Sat Mar  9 14:31:59 2013] [debug] GET /nature.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 14:31:59 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 14:31:59 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 14:31:59 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 14:31:59 2013] [debug] 200 OK (0.005403s, 185.082/s).
+[Sat Mar  9 14:32:11 2013] [debug] GET /bilder1.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 14:32:11 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 14:32:11 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 14:32:11 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 14:32:11 2013] [debug] 200 OK (0.006731s, 148.566/s).
+[Sat Mar  9 14:32:24 2013] [debug] GET /bilder2.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 14:32:24 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 14:32:24 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 14:32:24 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 14:32:24 2013] [debug] 200 OK (0.005731s, 174.490/s).
+[Sat Mar  9 14:32:53 2013] [debug] GET /nature.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 14:32:53 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 14:32:53 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 14:32:53 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 14:32:53 2013] [debug] 200 OK (0.006031s, 165.810/s).
+[Sat Mar  9 14:33:00 2013] [debug] GET /overview.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 14:33:00 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 14:33:00 2013] [debug] Rendering template "galery/overview.html.ep".
+[Sat Mar  9 14:33:00 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 14:33:00 2013] [debug] 200 OK (0.014015s, 71.352/s).
+[Sat Mar  9 14:33:00 2013] [debug] GET /js/overview.js (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 14:33:00 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  9 14:33:00 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  9 14:33:00 2013] [debug] Rendering inline template.
+[Sat Mar  9 14:33:00 2013] [debug] Rendering inline template.
+[Sat Mar  9 14:33:00 2013] [debug] 404 Not Found (0.040585s, 24.640/s).
+[Sat Mar  9 14:33:04 2013] [debug] GET /nature.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 14:33:04 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 14:33:04 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 14:33:04 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 14:33:04 2013] [debug] 200 OK (0.004208s, 237.643/s).
+[Sat Mar  9 14:41:39 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 14:41:39 2013] [debug] GET /bilder1.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 14:41:39 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 14:41:39 2013] [debug] Rendering template "galery/index.html.ep".
+[Sat Mar  9 14:41:39 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 14:41:39 2013] [debug] 200 OK (0.028791s, 34.733/s).
+[Sat Mar  9 14:41:39 2013] [debug] GET /js/jquery.fancybox-1.3.4.pack.js (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 14:41:39 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  9 14:41:39 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 14:41:40 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 14:41:40 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 14:41:40 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 14:41:40 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  9 14:41:40 2013] [debug] Rendering inline template.
+[Sat Mar  9 14:41:40 2013] [debug] Rendering inline template.
+[Sat Mar  9 14:41:40 2013] [debug] 404 Not Found (0.086553s, 11.554/s).
+[Sat Mar  9 14:44:10 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 14:44:10 2013] [debug] GET /bilder1.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 14:44:10 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 14:44:10 2013] [debug] Rendering template "galery/index.html.ep".
+[Sat Mar  9 14:44:10 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 14:44:10 2013] [debug] 200 OK (0.028757s, 34.774/s).
+[Sat Mar  9 14:44:11 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 14:45:38 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 14:45:38 2013] [debug] GET /bilder1.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 14:45:38 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 14:45:38 2013] [debug] Rendering template "galery/index.html.ep".
+[Sat Mar  9 14:45:38 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 14:45:38 2013] [debug] 200 OK (0.029238s, 34.202/s).
+[Sat Mar  9 14:45:39 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 14:45:39 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 14:45:48 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 14:45:48 2013] [debug] GET /bilder1.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 14:45:48 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 14:45:48 2013] [debug] Rendering template "galery/index.html.ep".
+[Sat Mar  9 14:45:48 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 14:45:48 2013] [debug] 200 OK (0.026795s, 37.320/s).
+[Sat Mar  9 14:45:48 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 14:45:48 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 14:46:42 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 14:46:42 2013] [debug] GET /bilder1.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 14:46:42 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 14:46:42 2013] [debug] Rendering template "galery/index.html.ep".
+[Sat Mar  9 14:46:42 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 14:46:42 2013] [debug] 200 OK (0.029313s, 34.115/s).
+[Sat Mar  9 14:46:42 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 14:47:08 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 14:47:08 2013] [debug] GET /bilder1.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 14:47:08 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 14:47:08 2013] [debug] Rendering template "galery/index.html.ep".
+[Sat Mar  9 14:47:08 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 14:47:08 2013] [debug] 200 OK (0.025020s, 39.968/s).
+[Sat Mar  9 14:47:51 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 14:47:51 2013] [debug] GET /bilder1.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 14:47:51 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 14:47:51 2013] [debug] Rendering template "galery/index.html.ep".
+[Sat Mar  9 14:47:51 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 14:47:51 2013] [debug] 200 OK (0.027376s, 36.528/s).
+[Sat Mar  9 14:47:52 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 14:47:52 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 14:48:02 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 14:48:02 2013] [debug] GET /bilder1.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 14:48:02 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 14:48:02 2013] [debug] Rendering template "galery/index.html.ep".
+[Sat Mar  9 14:48:02 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 14:48:02 2013] [debug] 200 OK (0.027600s, 36.232/s).
+[Sat Mar  9 14:48:03 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 14:56:12 2013] [debug] GET /bilder1.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 14:56:12 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 14:56:12 2013] [debug] Rendering template "galery/index.html.ep".
+[Sat Mar  9 14:56:12 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 14:56:12 2013] [debug] 200 OK (0.024849s, 40.243/s).
+[Sat Mar  9 14:56:14 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 14:56:14 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 14:56:14 2013] [debug] Rendering template "galery/overview.html.ep".
+[Sat Mar  9 14:56:14 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 14:56:14 2013] [debug] 200 OK (0.023259s, 42.994/s).
+[Sat Mar  9 14:56:15 2013] [debug] GET /js/overview.js (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 14:56:15 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  9 14:56:15 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  9 14:56:15 2013] [debug] Rendering inline template.
+[Sat Mar  9 14:56:15 2013] [debug] Rendering inline template.
+[Sat Mar  9 14:56:15 2013] [debug] 404 Not Found (0.062691s, 15.951/s).
+[Sat Mar  9 14:56:16 2013] [debug] GET /js/overview.js (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 14:56:16 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  9 14:56:16 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  9 14:56:16 2013] [debug] Rendering cached inline template.
+[Sat Mar  9 14:56:16 2013] [debug] Rendering cached inline template.
+[Sat Mar  9 14:56:16 2013] [debug] 404 Not Found (0.021501s, 46.509/s).
+[Sat Mar  9 14:56:25 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 14:56:25 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 14:56:25 2013] [debug] Rendering template "galery/overview.html.ep".
+[Sat Mar  9 14:56:25 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 14:56:25 2013] [debug] 200 OK (0.028124s, 35.557/s).
+[Sat Mar  9 14:56:25 2013] [debug] GET /js/overview.js (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 14:56:25 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  9 14:56:25 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  9 14:56:25 2013] [debug] Rendering inline template.
+[Sat Mar  9 14:56:25 2013] [debug] Rendering inline template.
+[Sat Mar  9 14:56:25 2013] [debug] 404 Not Found (0.075640s, 13.221/s).
+[Sat Mar  9 14:56:26 2013] [debug] GET /js/overview.js (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 14:56:26 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  9 14:56:26 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  9 14:56:26 2013] [debug] Rendering cached inline template.
+[Sat Mar  9 14:56:26 2013] [debug] Rendering cached inline template.
+[Sat Mar  9 14:56:26 2013] [debug] 404 Not Found (0.020292s, 49.281/s).
+[Sat Mar  9 14:56:41 2013] [debug] GET /bilder1.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 14:56:41 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 14:56:41 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 14:56:41 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 14:56:41 2013] [debug] 200 OK (0.002316s, 431.779/s).
+[Sat Mar  9 14:56:49 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 14:56:49 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 14:56:49 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 14:56:49 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 14:56:49 2013] [debug] 200 OK (0.002946s, 339.443/s).
+[Sat Mar  9 14:56:50 2013] [debug] GET /js/overview.js (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 14:56:50 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  9 14:56:50 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  9 14:56:50 2013] [debug] Rendering cached inline template.
+[Sat Mar  9 14:56:50 2013] [debug] Rendering cached inline template.
+[Sat Mar  9 14:56:50 2013] [debug] 404 Not Found (0.018155s, 55.081/s).
+[Sat Mar  9 14:56:50 2013] [debug] GET /js/overview.js (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 14:56:50 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  9 14:56:50 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  9 14:56:50 2013] [debug] Rendering cached inline template.
+[Sat Mar  9 14:56:50 2013] [debug] Rendering cached inline template.
+[Sat Mar  9 14:56:50 2013] [debug] 404 Not Found (0.015162s, 65.954/s).
+[Sat Mar  9 14:57:20 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 14:57:20 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 14:57:20 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 14:57:20 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 14:57:20 2013] [debug] 200 OK (0.003010s, 332.226/s).
+[Sat Mar  9 14:57:24 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 14:57:24 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 14:57:24 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 14:57:24 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 14:57:24 2013] [debug] 200 OK (0.006390s, 156.495/s).
+[Sat Mar  9 14:57:24 2013] [debug] GET /js/overview.js (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 14:57:24 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  9 14:57:24 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  9 14:57:24 2013] [debug] Rendering cached inline template.
+[Sat Mar  9 14:57:24 2013] [debug] Rendering cached inline template.
+[Sat Mar  9 14:57:24 2013] [debug] 404 Not Found (0.021508s, 46.494/s).
+[Sat Mar  9 14:57:25 2013] [debug] GET /js/overview.js (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 14:57:25 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  9 14:57:25 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  9 14:57:25 2013] [debug] Rendering cached inline template.
+[Sat Mar  9 14:57:25 2013] [debug] Rendering cached inline template.
+[Sat Mar  9 14:57:25 2013] [debug] 404 Not Found (0.024605s, 40.642/s).
+[Sat Mar  9 14:57:32 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 14:57:32 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 14:57:32 2013] [debug] Rendering template "galery/overview.html.ep".
+[Sat Mar  9 14:57:32 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 14:57:32 2013] [debug] 200 OK (0.024656s, 40.558/s).
+[Sat Mar  9 14:57:33 2013] [debug] GET /js/overview.js (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 14:57:33 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  9 14:57:33 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  9 14:57:33 2013] [debug] Rendering inline template.
+[Sat Mar  9 14:57:33 2013] [debug] Rendering inline template.
+[Sat Mar  9 14:57:33 2013] [debug] 404 Not Found (0.059318s, 16.858/s).
+[Sat Mar  9 14:57:34 2013] [debug] GET /js/overview.js (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 14:57:34 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  9 14:57:34 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  9 14:57:34 2013] [debug] Rendering cached inline template.
+[Sat Mar  9 14:57:34 2013] [debug] Rendering cached inline template.
+[Sat Mar  9 14:57:34 2013] [debug] 404 Not Found (0.018078s, 55.316/s).
+[Sat Mar  9 14:59:02 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 14:59:02 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 14:59:02 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 14:59:02 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 14:59:02 2013] [debug] 200 OK (0.005086s, 196.618/s).
+[Sat Mar  9 14:59:07 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 14:59:07 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 14:59:07 2013] [debug] Rendering template "galery/index.html.ep".
+[Sat Mar  9 14:59:07 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 14:59:07 2013] [debug] 200 OK (0.024987s, 40.021/s).
+[Sat Mar  9 14:59:10 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 14:59:10 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 14:59:10 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 14:59:10 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 14:59:10 2013] [debug] 200 OK (0.002312s, 432.526/s).
+[Sat Mar  9 14:59:14 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 14:59:14 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 14:59:14 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 14:59:14 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 14:59:14 2013] [debug] 200 OK (0.002902s, 344.590/s).
+[Sat Mar  9 14:59:35 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 14:59:35 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 14:59:35 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 14:59:35 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 14:59:35 2013] [debug] 200 OK (0.003369s, 296.824/s).
+[Sat Mar  9 15:00:20 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 15:00:20 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:00:20 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:00:20 2013] [debug] Rendering template "galery/index.html.ep".
+[Sat Mar  9 15:00:20 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 15:00:20 2013] [debug] 200 OK (0.026820s, 37.286/s).
+[Sat Mar  9 15:00:20 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 15:00:21 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 15:00:21 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 15:00:21 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 15:00:25 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:00:25 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:00:25 2013] [debug] Rendering template "galery/index.html.ep".
+[Sat Mar  9 15:00:25 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 15:00:25 2013] [debug] 200 OK (0.044747s, 22.348/s).
+[Sat Mar  9 15:01:24 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:01:24 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:01:24 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:01:24 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:01:24 2013] [debug] 200 OK (0.007941s, 125.929/s).
+[Sat Mar  9 15:01:27 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:01:27 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:01:27 2013] [debug] Rendering template "galery/overview.html.ep".
+[Sat Mar  9 15:01:27 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 15:01:27 2013] [debug] 200 OK (0.029842s, 33.510/s).
+[Sat Mar  9 15:01:29 2013] [debug] GET /js/overview.js (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:01:29 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  9 15:01:29 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  9 15:01:29 2013] [debug] Rendering inline template.
+[Sat Mar  9 15:01:29 2013] [debug] Rendering inline template.
+[Sat Mar  9 15:01:29 2013] [debug] 404 Not Found (0.046539s, 21.487/s).
+[Sat Mar  9 15:02:11 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 15:02:11 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:02:11 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:02:11 2013] [debug] Rendering template "galery/index.html.ep".
+[Sat Mar  9 15:02:11 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 15:02:11 2013] [debug] 200 OK (0.023721s, 42.157/s).
+[Sat Mar  9 15:02:11 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 15:02:11 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 15:02:11 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 15:02:11 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 15:02:14 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:02:14 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:02:14 2013] [debug] Rendering template "galery/overview.html.ep".
+[Sat Mar  9 15:02:14 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 15:02:14 2013] [debug] 200 OK (0.027605s, 36.225/s).
+[Sat Mar  9 15:02:15 2013] [debug] GET /js/overview.js (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:02:15 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  9 15:02:15 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  9 15:02:15 2013] [debug] Rendering inline template.
+[Sat Mar  9 15:02:15 2013] [debug] Rendering inline template.
+[Sat Mar  9 15:02:15 2013] [debug] 404 Not Found (0.049808s, 20.077/s).
+[Sat Mar  9 15:02:57 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 15:02:57 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:02:57 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:02:57 2013] [debug] Rendering template "galery/index.html.ep".
+[Sat Mar  9 15:02:57 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 15:02:57 2013] [debug] 200 OK (0.027362s, 36.547/s).
+[Sat Mar  9 15:02:57 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 15:02:57 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 15:02:58 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 15:02:58 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 15:03:00 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:03:00 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:03:00 2013] [debug] Rendering template "galery/overview.html.ep".
+[Sat Mar  9 15:03:00 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 15:03:00 2013] [debug] 200 OK (0.026172s, 38.209/s).
+[Sat Mar  9 15:03:01 2013] [debug] GET /js/overview.js (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:03:01 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  9 15:03:01 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  9 15:03:01 2013] [debug] Rendering inline template.
+[Sat Mar  9 15:03:01 2013] [debug] Rendering inline template.
+[Sat Mar  9 15:03:01 2013] [debug] 404 Not Found (0.061182s, 16.345/s).
+[Sat Mar  9 15:03:58 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:03:58 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:03:58 2013] [debug] Rendering template "galery/index.html.ep".
+[Sat Mar  9 15:03:58 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 15:03:58 2013] [debug] 200 OK (0.027593s, 36.241/s).
+[Sat Mar  9 15:04:02 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:04:02 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:04:02 2013] [debug] Rendering template "galery/overview.html.ep".
+[Sat Mar  9 15:04:02 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 15:04:02 2013] [debug] 200 OK (0.029625s, 33.755/s).
+[Sat Mar  9 15:04:03 2013] [debug] GET /js/overview.js (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:04:03 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  9 15:04:03 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  9 15:04:03 2013] [debug] Rendering inline template.
+[Sat Mar  9 15:04:03 2013] [debug] Rendering inline template.
+[Sat Mar  9 15:04:03 2013] [debug] 404 Not Found (0.053501s, 18.691/s).
+[Sat Mar  9 15:05:05 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:05:05 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:05:05 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:05:05 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:05:05 2013] [debug] 200 OK (0.001998s, 500.501/s).
+[Sat Mar  9 15:05:07 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:05:07 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:05:07 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:05:07 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:05:07 2013] [debug] 200 OK (0.002056s, 486.381/s).
+[Sat Mar  9 15:05:08 2013] [debug] GET /js/overview.js (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:05:08 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  9 15:05:08 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  9 15:05:08 2013] [debug] Rendering cached inline template.
+[Sat Mar  9 15:05:08 2013] [debug] Rendering cached inline template.
+[Sat Mar  9 15:05:08 2013] [debug] 404 Not Found (0.014182s, 70.512/s).
+[Sat Mar  9 15:05:13 2013] [debug] GET /bilder2.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:05:13 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:05:13 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:05:13 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:05:13 2013] [debug] 200 OK (0.010327s, 96.834/s).
+[Sat Mar  9 15:05:16 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:05:16 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:05:16 2013] [debug] Rendering template "galery/overview.html.ep".
+[Sat Mar  9 15:05:16 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 15:05:16 2013] [debug] 200 OK (0.027699s, 36.102/s).
+[Sat Mar  9 15:05:17 2013] [debug] GET /js/overview.js (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:05:17 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  9 15:05:17 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  9 15:05:17 2013] [debug] Rendering cached inline template.
+[Sat Mar  9 15:05:17 2013] [debug] Rendering cached inline template.
+[Sat Mar  9 15:05:17 2013] [debug] 404 Not Found (0.029323s, 34.103/s).
+[Sat Mar  9 15:05:18 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:05:18 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:05:18 2013] [debug] Rendering template "galery/index.html.ep".
+[Sat Mar  9 15:05:18 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 15:05:18 2013] [debug] 200 OK (0.024508s, 40.803/s).
+[Sat Mar  9 15:05:37 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:05:37 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:05:37 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:05:37 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:05:37 2013] [debug] 200 OK (0.006389s, 156.519/s).
+[Sat Mar  9 15:05:39 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:05:39 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:05:39 2013] [debug] Rendering template "galery/overview.html.ep".
+[Sat Mar  9 15:05:39 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 15:05:39 2013] [debug] 200 OK (0.018692s, 53.499/s).
+[Sat Mar  9 15:05:40 2013] [debug] GET /js/overview.js (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:05:40 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  9 15:05:40 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  9 15:05:40 2013] [debug] Rendering inline template.
+[Sat Mar  9 15:05:40 2013] [debug] Rendering inline template.
+[Sat Mar  9 15:05:40 2013] [debug] 404 Not Found (0.048674s, 20.545/s).
+[Sat Mar  9 15:05:43 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:05:43 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:05:43 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:05:43 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:05:43 2013] [debug] 200 OK (0.010161s, 98.416/s).
+[Sat Mar  9 15:05:44 2013] [debug] GET /js/overview.js (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:05:44 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  9 15:05:44 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  9 15:05:44 2013] [debug] Rendering inline template.
+[Sat Mar  9 15:05:44 2013] [debug] Rendering inline template.
+[Sat Mar  9 15:05:44 2013] [debug] 404 Not Found (0.050085s, 19.966/s).
+[Sat Mar  9 15:06:03 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:06:03 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:06:03 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:06:03 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:06:03 2013] [debug] 200 OK (0.005617s, 178.031/s).
+[Sat Mar  9 15:06:04 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:06:04 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:06:04 2013] [debug] Rendering template "galery/overview.html.ep".
+[Sat Mar  9 15:06:04 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 15:06:04 2013] [debug] 200 OK (0.021768s, 45.939/s).
+[Sat Mar  9 15:06:05 2013] [debug] GET /js/overview.js (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:06:05 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  9 15:06:05 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  9 15:06:05 2013] [debug] Rendering cached inline template.
+[Sat Mar  9 15:06:05 2013] [debug] Rendering cached inline template.
+[Sat Mar  9 15:06:05 2013] [debug] 404 Not Found (0.016725s, 59.791/s).
+[Sat Mar  9 15:06:19 2013] [debug] GET /bilder2.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:06:19 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:06:19 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:06:19 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:06:19 2013] [debug] 200 OK (0.007005s, 142.755/s).
+[Sat Mar  9 15:06:27 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:06:27 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:06:27 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:06:27 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:06:27 2013] [debug] 200 OK (0.002607s, 383.583/s).
+[Sat Mar  9 15:06:28 2013] [debug] GET /js/overview.js (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:06:28 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  9 15:06:28 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  9 15:06:28 2013] [debug] Rendering inline template.
+[Sat Mar  9 15:06:28 2013] [debug] Rendering inline template.
+[Sat Mar  9 15:06:28 2013] [debug] 404 Not Found (0.029455s, 33.950/s).
+[Sat Mar  9 15:06:32 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:06:32 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:06:32 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:06:32 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:06:32 2013] [debug] 200 OK (0.003008s, 332.447/s).
+[Sat Mar  9 15:06:36 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:06:36 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:06:36 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:06:36 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:06:36 2013] [debug] 200 OK (0.003935s, 254.130/s).
+[Sat Mar  9 15:06:36 2013] [debug] GET /js/overview.js (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:06:36 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  9 15:06:36 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  9 15:06:36 2013] [debug] Rendering cached inline template.
+[Sat Mar  9 15:06:36 2013] [debug] Rendering cached inline template.
+[Sat Mar  9 15:06:36 2013] [debug] 404 Not Found (0.013027s, 76.764/s).
+[Sat Mar  9 15:06:42 2013] [debug] GET /bilder2.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:06:42 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:06:42 2013] [debug] Rendering template "galery/index.html.ep".
+[Sat Mar  9 15:06:42 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 15:06:42 2013] [debug] 200 OK (0.026931s, 37.132/s).
+[Sat Mar  9 15:07:45 2013] [debug] GET /bilder2.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:07:45 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:07:45 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:07:45 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:07:45 2013] [debug] 200 OK (0.010735s, 93.153/s).
+[Sat Mar  9 15:07:47 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:07:47 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:07:47 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:07:47 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:07:47 2013] [debug] 200 OK (0.003437s, 290.951/s).
+[Sat Mar  9 15:07:48 2013] [debug] GET /js/overview.js (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:07:48 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  9 15:07:48 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  9 15:07:48 2013] [debug] Rendering cached inline template.
+[Sat Mar  9 15:07:48 2013] [debug] Rendering cached inline template.
+[Sat Mar  9 15:07:48 2013] [debug] 404 Not Found (0.015775s, 63.391/s).
+[Sat Mar  9 15:07:55 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:07:55 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:07:55 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:07:55 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:07:55 2013] [debug] 200 OK (0.002660s, 375.940/s).
+[Sat Mar  9 15:07:56 2013] [debug] GET /js/overview.js (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:07:56 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  9 15:07:56 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  9 15:07:56 2013] [debug] Rendering cached inline template.
+[Sat Mar  9 15:07:56 2013] [debug] Rendering cached inline template.
+[Sat Mar  9 15:07:56 2013] [debug] 404 Not Found (0.019767s, 50.589/s).
+[Sat Mar  9 15:09:06 2013] [debug] GET /bilder2.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:09:06 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:09:06 2013] [debug] Rendering template "galery/index.html.ep".
+[Sat Mar  9 15:09:06 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 15:09:06 2013] [debug] 200 OK (0.029759s, 33.603/s).
+[Sat Mar  9 15:09:10 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:09:10 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:09:10 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:09:10 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:09:10 2013] [debug] 200 OK (0.006789s, 147.297/s).
+[Sat Mar  9 15:09:20 2013] [debug] GET /bilder1.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:09:20 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:09:20 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:09:20 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:09:20 2013] [debug] 200 OK (0.002845s, 351.494/s).
+[Sat Mar  9 15:09:24 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:09:24 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:09:24 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:09:24 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:09:24 2013] [debug] 200 OK (0.007999s, 125.016/s).
+[Sat Mar  9 15:09:34 2013] [debug] GET /bilder2.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:09:34 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:09:34 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:09:34 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:09:34 2013] [debug] 200 OK (0.004446s, 224.921/s).
+[Sat Mar  9 15:09:41 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:09:41 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:09:41 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:09:41 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:09:41 2013] [debug] 200 OK (0.007168s, 139.509/s).
+[Sat Mar  9 15:09:53 2013] [debug] GET /bilder1.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:09:53 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:09:53 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:09:53 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:09:53 2013] [debug] 200 OK (0.008336s, 119.962/s).
+[Sat Mar  9 15:12:28 2013] [debug] GET /bilder1.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:12:28 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:12:28 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:12:28 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:12:28 2013] [debug] 200 OK (0.002197s, 455.166/s).
+[Sat Mar  9 15:12:31 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:12:31 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:12:31 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:12:31 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:12:31 2013] [debug] 200 OK (0.012003s, 83.313/s).
+[Sat Mar  9 15:12:48 2013] [debug] GET /bilder1.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:12:48 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:12:48 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:12:48 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:12:48 2013] [debug] 200 OK (0.007533s, 132.749/s).
+[Sat Mar  9 15:12:50 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:12:50 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:12:50 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:12:50 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:12:50 2013] [debug] 200 OK (0.006650s, 150.376/s).
+[Sat Mar  9 15:12:53 2013] [debug] GET /bilder2.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:12:53 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:12:53 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:12:53 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:12:53 2013] [debug] 200 OK (0.005089s, 196.502/s).
+[Sat Mar  9 15:12:56 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:12:56 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:12:56 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:12:56 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:12:56 2013] [debug] 200 OK (0.006221s, 160.746/s).
+[Sat Mar  9 15:13:02 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:13:03 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:13:03 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:13:03 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:13:03 2013] [debug] 200 OK (0.002987s, 334.784/s).
+[Sat Mar  9 15:13:05 2013] [debug] GET /bilder2.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:13:05 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:13:05 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:13:05 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:13:05 2013] [debug] 200 OK (0.002503s, 399.521/s).
+[Sat Mar  9 15:13:07 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:13:07 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:13:07 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:13:07 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:13:07 2013] [debug] 200 OK (0.005878s, 170.126/s).
+[Sat Mar  9 15:13:10 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:13:10 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:13:10 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:13:10 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:13:10 2013] [debug] 200 OK (0.003212s, 311.333/s).
+[Sat Mar  9 15:13:12 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:13:12 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:13:12 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:13:12 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:13:12 2013] [debug] 200 OK (0.008070s, 123.916/s).
+[Sat Mar  9 15:13:27 2013] [debug] GET /bilder2.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:13:27 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:13:27 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:13:27 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:13:27 2013] [debug] 200 OK (0.002415s, 414.079/s).
+[Sat Mar  9 15:13:30 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:13:30 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:13:30 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:13:30 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:13:30 2013] [debug] 200 OK (0.013198s, 75.769/s).
+[Sat Mar  9 15:13:32 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:13:32 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:13:32 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:13:32 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:13:32 2013] [debug] 200 OK (0.002507s, 398.883/s).
+[Sat Mar  9 15:13:34 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:13:34 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:13:34 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:13:34 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:13:34 2013] [debug] 200 OK (0.002615s, 382.409/s).
+[Sat Mar  9 15:13:45 2013] [debug] GET /bilder2.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:13:45 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:13:45 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:13:45 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:13:45 2013] [debug] 200 OK (0.003850s, 259.740/s).
+[Sat Mar  9 15:13:49 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:13:49 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:13:49 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:13:49 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:13:49 2013] [debug] 200 OK (0.002772s, 360.750/s).
+[Sat Mar  9 15:13:50 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:13:50 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:13:50 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:13:50 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:13:50 2013] [debug] 200 OK (0.002437s, 410.341/s).
+[Sat Mar  9 15:13:52 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:13:52 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:13:52 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:13:52 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:13:52 2013] [debug] 200 OK (0.002801s, 357.015/s).
+[Sat Mar  9 15:13:59 2013] [debug] GET /bilder2.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:13:59 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:13:59 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:13:59 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:13:59 2013] [debug] 200 OK (0.002523s, 396.354/s).
+[Sat Mar  9 15:14:23 2013] [debug] GET /bilder2.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:14:23 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:14:23 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:14:23 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:14:23 2013] [debug] 200 OK (0.002654s, 376.790/s).
+[Sat Mar  9 15:14:25 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:14:25 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:14:25 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:14:25 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:14:25 2013] [debug] 200 OK (0.007507s, 133.209/s).
+[Sat Mar  9 15:14:30 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:14:30 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:14:30 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:14:30 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:14:30 2013] [debug] 200 OK (0.002623s, 381.243/s).
+[Sat Mar  9 15:14:32 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:14:32 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:14:32 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:14:32 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:14:32 2013] [debug] 200 OK (0.002823s, 354.233/s).
+[Sat Mar  9 15:14:36 2013] [debug] GET /bilder2.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:14:36 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:14:36 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:14:36 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:14:36 2013] [debug] 200 OK (0.004773s, 209.512/s).
+[Sat Mar  9 15:15:55 2013] [debug] GET /bilder2.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:15:55 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:15:55 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:15:55 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:15:55 2013] [debug] 200 OK (0.002012s, 497.018/s).
+[Sat Mar  9 15:15:57 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:15:57 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:15:57 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:15:57 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:15:57 2013] [debug] 200 OK (0.008323s, 120.149/s).
+[Sat Mar  9 15:16:02 2013] [debug] GET /bilder2.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:16:02 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:16:02 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:16:02 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:16:02 2013] [debug] 200 OK (0.003089s, 323.729/s).
+[Sat Mar  9 15:16:05 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:16:05 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:16:05 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:16:05 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:16:05 2013] [debug] 200 OK (0.006970s, 143.472/s).
+[Sat Mar  9 15:16:06 2013] [debug] GET /bilder2.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:16:06 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:16:06 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:16:06 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:16:06 2013] [debug] 200 OK (0.002426s, 412.201/s).
+[Sat Mar  9 15:16:09 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:16:09 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:16:09 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:16:09 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:16:09 2013] [debug] 200 OK (0.007935s, 126.024/s).
+[Sat Mar  9 15:16:13 2013] [debug] GET /bilder2.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:16:13 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:16:13 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:16:13 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:16:13 2013] [debug] 200 OK (0.001798s, 556.174/s).
+[Sat Mar  9 15:16:40 2013] [debug] GET /bilder2.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:16:40 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:16:40 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:16:40 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:16:40 2013] [debug] 200 OK (0.011313s, 88.394/s).
+[Sat Mar  9 15:16:42 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:16:42 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:16:42 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:16:42 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:16:42 2013] [debug] 200 OK (0.003120s, 320.513/s).
+[Sat Mar  9 15:16:52 2013] [debug] GET /bilder2.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:16:52 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:16:52 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:16:52 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:16:52 2013] [debug] 200 OK (0.002081s, 480.538/s).
+[Sat Mar  9 15:16:57 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:16:57 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:16:57 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:16:57 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:16:57 2013] [debug] 200 OK (0.005820s, 171.821/s).
+[Sat Mar  9 15:16:59 2013] [debug] GET /bilder2.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:16:59 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:16:59 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:16:59 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:16:59 2013] [debug] 200 OK (0.004708s, 212.404/s).
+[Sat Mar  9 15:17:02 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:17:02 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:17:02 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:17:02 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:17:02 2013] [debug] 200 OK (0.002035s, 491.400/s).
+[Sat Mar  9 15:17:04 2013] [debug] GET /bilder2.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:17:04 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:17:04 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:17:04 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:17:04 2013] [debug] 200 OK (0.002127s, 470.146/s).
+[Sat Mar  9 15:17:54 2013] [debug] GET /bilder2.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:17:54 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:17:54 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:17:54 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:17:54 2013] [debug] 200 OK (0.004436s, 225.428/s).
+[Sat Mar  9 15:17:56 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:17:56 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:17:56 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:17:56 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:17:56 2013] [debug] 200 OK (0.002667s, 374.953/s).
+[Sat Mar  9 15:18:02 2013] [debug] GET /bilder2.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:18:02 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:18:02 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:18:02 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:18:02 2013] [debug] 200 OK (0.002841s, 351.989/s).
+[Sat Mar  9 15:18:22 2013] [debug] GET /bilder2.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:18:22 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:18:22 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:18:22 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:18:22 2013] [debug] 200 OK (0.005731s, 174.490/s).
+[Sat Mar  9 15:18:24 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:18:24 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:18:24 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:18:24 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:18:24 2013] [debug] 200 OK (0.005193s, 192.567/s).
+[Sat Mar  9 15:20:44 2013] [debug] GET /bilder2.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:20:44 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:20:44 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:20:44 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:20:44 2013] [debug] 200 OK (0.002527s, 395.726/s).
+[Sat Mar  9 15:20:47 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:20:47 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:20:47 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:20:47 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:20:47 2013] [debug] 200 OK (0.007456s, 134.120/s).
+[Sat Mar  9 15:21:02 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:21:02 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:21:02 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:21:02 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:21:02 2013] [debug] 200 OK (0.003277s, 305.157/s).
+[Sat Mar  9 15:22:16 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:22:16 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:22:16 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:22:16 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:22:16 2013] [debug] 200 OK (0.005531s, 180.799/s).
+[Sat Mar  9 15:22:18 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:22:18 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:22:18 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:22:18 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:22:18 2013] [debug] 200 OK (0.002642s, 378.501/s).
+[Sat Mar  9 15:22:21 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:22:21 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:22:21 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:22:21 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:22:21 2013] [debug] 200 OK (0.002032s, 492.126/s).
+[Sat Mar  9 15:22:25 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:22:25 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:22:25 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:22:25 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:22:25 2013] [debug] 200 OK (0.002757s, 362.713/s).
+[Sat Mar  9 15:22:28 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:22:28 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:22:28 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:22:28 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:22:28 2013] [debug] 200 OK (0.001994s, 501.505/s).
+[Sat Mar  9 15:23:25 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:23:25 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:23:25 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:23:25 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:23:25 2013] [debug] 200 OK (0.002683s, 372.717/s).
+[Sat Mar  9 15:23:27 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:23:27 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:23:27 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:23:27 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:23:27 2013] [debug] 200 OK (0.009008s, 111.012/s).
+[Sat Mar  9 15:24:03 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:24:03 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:24:03 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:24:03 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:24:03 2013] [debug] 200 OK (0.002252s, 444.050/s).
+[Sat Mar  9 15:24:04 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:24:04 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:24:04 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:24:04 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:24:04 2013] [debug] 200 OK (0.006051s, 165.262/s).
+[Sat Mar  9 15:24:12 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:24:12 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:24:12 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:24:12 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:24:12 2013] [debug] 200 OK (0.005751s, 173.883/s).
+[Sat Mar  9 15:24:26 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:24:26 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:24:26 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:24:26 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:24:26 2013] [debug] 200 OK (0.006639s, 150.625/s).
+[Sat Mar  9 15:24:28 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:24:28 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:24:28 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:24:28 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:24:28 2013] [debug] 200 OK (0.007202s, 138.850/s).
+[Sat Mar  9 15:24:34 2013] [debug] GET /bilder2.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:24:34 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:24:34 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:24:34 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:24:34 2013] [debug] 200 OK (0.005339s, 187.301/s).
+[Sat Mar  9 15:24:37 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:24:37 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:24:37 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:24:37 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:24:37 2013] [debug] 200 OK (0.002696s, 370.920/s).
+[Sat Mar  9 15:24:39 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:24:39 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:24:39 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:24:39 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:24:39 2013] [debug] 200 OK (0.002144s, 466.418/s).
+[Sat Mar  9 15:24:42 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:24:42 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:24:42 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:24:42 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:24:42 2013] [debug] 200 OK (0.005655s, 176.835/s).
+[Sat Mar  9 15:24:50 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:24:50 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:24:50 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:24:50 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:24:50 2013] [debug] 200 OK (0.002627s, 380.662/s).
+[Sat Mar  9 15:24:54 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:24:54 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:24:54 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:24:54 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:24:54 2013] [debug] 200 OK (0.003316s, 301.568/s).
+[Sat Mar  9 15:24:56 2013] [debug] GET /bilder2.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:24:56 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:24:56 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:24:56 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:24:56 2013] [debug] 200 OK (0.003137s, 318.776/s).
+[Sat Mar  9 15:25:05 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:25:05 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:25:05 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:25:05 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:25:05 2013] [debug] 200 OK (0.005967s, 167.588/s).
+[Sat Mar  9 15:25:07 2013] [debug] GET /bilder2.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:25:07 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:25:07 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:25:07 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:25:07 2013] [debug] 200 OK (0.006996s, 142.939/s).
+[Sat Mar  9 15:25:08 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:25:08 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:25:08 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:25:08 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:25:08 2013] [debug] 200 OK (0.010833s, 92.311/s).
+[Sat Mar  9 15:25:12 2013] [debug] GET /bilder1.html (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.3)).
+[Sat Mar  9 15:25:12 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:25:12 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:25:12 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:25:12 2013] [debug] 200 OK (0.002268s, 440.917/s).
+[Sat Mar  9 15:25:15 2013] [debug] GET /nature.html (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.3)).
+[Sat Mar  9 15:25:15 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:25:15 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:25:15 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:25:15 2013] [debug] 200 OK (0.007154s, 139.782/s).
+[Sat Mar  9 15:25:17 2013] [debug] GET /overview.html (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.3)).
+[Sat Mar  9 15:25:17 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:25:17 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:25:17 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:25:17 2013] [debug] 200 OK (0.004621s, 216.403/s).
+[Sat Mar  9 15:25:21 2013] [debug] GET /bilder1.html (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.3)).
+[Sat Mar  9 15:25:21 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:25:21 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:25:21 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:25:21 2013] [debug] 200 OK (0.003801s, 263.089/s).
+[Sat Mar  9 15:25:28 2013] [debug] GET /nature.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 15:25:28 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:25:28 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:25:28 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:25:28 2013] [debug] 200 OK (0.003125s, 320.000/s).
+[Sat Mar  9 15:25:31 2013] [debug] GET /overview.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 15:25:31 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:25:31 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:25:31 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:25:31 2013] [debug] 200 OK (0.009409s, 106.281/s).
+[Sat Mar  9 15:25:37 2013] [debug] GET /bilder2.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 15:25:37 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:25:37 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:25:37 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:25:37 2013] [debug] 200 OK (0.002964s, 337.382/s).
+[Sat Mar  9 15:25:44 2013] [debug] GET /bilder1.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 15:25:44 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:25:44 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:25:44 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:25:44 2013] [debug] 200 OK (0.008692s, 115.048/s).
+[Sat Mar  9 15:25:47 2013] [debug] GET /overview.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 15:25:47 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:25:47 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:25:47 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:25:47 2013] [debug] 200 OK (0.005674s, 176.243/s).
+[Sat Mar  9 15:25:51 2013] [debug] GET /nature.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 15:25:51 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:25:51 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:25:51 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:25:51 2013] [debug] 200 OK (0.003532s, 283.126/s).
+[Sat Mar  9 15:26:04 2013] [debug] GET /overview.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 15:26:04 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:26:04 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:26:04 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:26:04 2013] [debug] 200 OK (0.008406s, 118.963/s).
+[Sat Mar  9 15:26:10 2013] [debug] GET /bilder1.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 15:26:10 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:26:10 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:26:10 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:26:10 2013] [debug] 200 OK (0.001976s, 506.073/s).
+[Sat Mar  9 15:26:15 2013] [debug] GET /nature.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 15:26:15 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:26:15 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:26:15 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:26:15 2013] [debug] 200 OK (0.005821s, 171.792/s).
+[Sat Mar  9 15:26:18 2013] [debug] GET /bilder1.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 15:26:18 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:26:18 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:26:18 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:26:18 2013] [debug] 200 OK (0.004568s, 218.914/s).
+[Sat Mar  9 15:26:19 2013] [debug] GET /overview.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 15:26:19 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:26:19 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:26:19 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:26:19 2013] [debug] 200 OK (0.002713s, 368.596/s).
+[Sat Mar  9 15:26:23 2013] [debug] GET /nature.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 15:26:23 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:26:23 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:26:23 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:26:23 2013] [debug] 200 OK (0.003426s, 291.886/s).
+[Sat Mar  9 15:27:12 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:27:12 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:27:12 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:27:12 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:27:12 2013] [debug] 200 OK (0.002114s, 473.037/s).
+[Sat Mar  9 15:27:14 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:27:14 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:27:14 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:27:14 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:27:14 2013] [debug] 200 OK (0.004097s, 244.081/s).
+[Sat Mar  9 15:27:19 2013] [debug] GET /bilder2.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:27:19 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:27:19 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:27:19 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:27:19 2013] [debug] 200 OK (0.010654s, 93.861/s).
+[Sat Mar  9 15:28:47 2013] [debug] GET /bilder2.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:28:47 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:28:47 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:28:47 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:28:47 2013] [debug] 200 OK (0.003163s, 316.156/s).
+[Sat Mar  9 15:28:50 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:28:50 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:28:50 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:28:50 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:28:50 2013] [debug] 200 OK (0.002126s, 470.367/s).
+[Sat Mar  9 15:29:00 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:29:00 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:29:00 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:29:00 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:29:00 2013] [debug] 200 OK (0.002264s, 441.696/s).
+[Sat Mar  9 15:29:25 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:29:25 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:29:25 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:29:25 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:29:25 2013] [debug] 200 OK (0.007902s, 126.550/s).
+[Sat Mar  9 15:29:28 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:29:28 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:29:28 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:29:28 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:29:28 2013] [debug] 200 OK (0.012236s, 81.726/s).
+[Sat Mar  9 15:30:29 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:30:29 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:30:29 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:30:29 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:30:29 2013] [debug] 200 OK (0.007309s, 136.818/s).
+[Sat Mar  9 15:30:32 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:30:32 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:30:32 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:30:32 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:30:32 2013] [debug] 200 OK (0.007124s, 140.371/s).
+[Sat Mar  9 15:30:37 2013] [debug] GET /bilder2.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:30:37 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:30:37 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:30:37 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:30:37 2013] [debug] 200 OK (0.005692s, 175.685/s).
+[Sat Mar  9 15:30:41 2013] [debug] GET /bilder1.html (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.3)).
+[Sat Mar  9 15:30:41 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:30:41 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:30:41 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:30:41 2013] [debug] 200 OK (0.004936s, 202.593/s).
+[Sat Mar  9 15:30:48 2013] [debug] GET /bilder2.html (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.3)).
+[Sat Mar  9 15:30:48 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:30:48 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:30:48 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:30:48 2013] [debug] 200 OK (0.002338s, 427.716/s).
+[Sat Mar  9 15:31:05 2013] [debug] GET /bilder2.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:31:05 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:31:05 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:31:05 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:31:05 2013] [debug] 200 OK (0.010909s, 91.667/s).
+[Sat Mar  9 15:31:07 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:31:07 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:31:07 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:31:07 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:31:07 2013] [debug] 200 OK (0.006812s, 146.800/s).
+[Sat Mar  9 15:33:19 2013] [debug] GET /bilder2.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:33:19 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:33:19 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:33:19 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:33:19 2013] [debug] 200 OK (0.005301s, 188.644/s).
+[Sat Mar  9 15:33:21 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:33:21 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:33:21 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:33:21 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:33:21 2013] [debug] 200 OK (0.003346s, 298.864/s).
+[Sat Mar  9 15:34:01 2013] [debug] GET /bilder2.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:34:01 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:34:01 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:34:01 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:34:01 2013] [debug] 200 OK (0.001831s, 546.150/s).
+[Sat Mar  9 15:34:03 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:34:03 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:34:03 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:34:03 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:34:03 2013] [debug] 200 OK (0.009020s, 110.865/s).
+[Sat Mar  9 15:34:09 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:34:09 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:34:09 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:34:09 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:34:09 2013] [debug] 200 OK (0.002365s, 422.833/s).
+[Sat Mar  9 15:34:31 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:34:31 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:34:31 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:34:31 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:34:31 2013] [debug] 200 OK (0.002161s, 462.749/s).
+[Sat Mar  9 15:35:08 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:35:08 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:35:08 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:35:08 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:35:08 2013] [debug] 200 OK (0.005218s, 191.644/s).
+[Sat Mar  9 15:35:10 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:35:10 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:35:10 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:35:10 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:35:10 2013] [debug] 200 OK (0.005366s, 186.359/s).
+[Sat Mar  9 15:35:42 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:35:42 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:35:42 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:35:42 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:35:42 2013] [debug] 200 OK (0.007879s, 126.920/s).
+[Sat Mar  9 15:35:46 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:35:46 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:35:46 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:35:46 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:35:46 2013] [debug] 200 OK (0.002652s, 377.074/s).
+[Sat Mar  9 15:36:05 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:36:05 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:36:05 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:36:05 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:36:05 2013] [debug] 200 OK (0.007806s, 128.107/s).
+[Sat Mar  9 15:36:06 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:36:06 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:36:06 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:36:06 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:36:06 2013] [debug] 200 OK (0.004895s, 204.290/s).
+[Sat Mar  9 15:36:16 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:36:16 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:36:16 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:36:16 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:36:16 2013] [debug] 200 OK (0.002873s, 348.068/s).
+[Sat Mar  9 15:36:20 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:36:20 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:36:20 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:36:20 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:36:20 2013] [debug] 200 OK (0.006969s, 143.493/s).
+[Sat Mar  9 15:36:22 2013] [debug] GET /bilder2.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:36:22 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:36:22 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:36:22 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:36:22 2013] [debug] 200 OK (0.004439s, 225.276/s).
+[Sat Mar  9 15:36:24 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:36:24 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:36:24 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:36:24 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:36:24 2013] [debug] 200 OK (0.002695s, 371.058/s).
+[Sat Mar  9 15:36:28 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:36:28 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:36:28 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:36:28 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:36:28 2013] [debug] 200 OK (0.001841s, 543.183/s).
+[Sat Mar  9 15:36:32 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:36:32 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:36:32 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:36:32 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:36:32 2013] [debug] 200 OK (0.002448s, 408.497/s).
+[Sat Mar  9 15:36:50 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:36:50 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:36:50 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:36:50 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:36:50 2013] [debug] 200 OK (0.003569s, 280.191/s).
+[Sat Mar  9 15:37:14 2013] [debug] GET /bilder1.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:37:14 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:37:14 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:37:14 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:37:14 2013] [debug] 200 OK (0.005059s, 197.668/s).
+[Sat Mar  9 15:37:20 2013] [debug] GET /nature.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 15:37:20 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:37:20 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:37:20 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:37:20 2013] [debug] 200 OK (0.004280s, 233.645/s).
+[Sat Mar  9 15:37:22 2013] [debug] GET /overview.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 15:37:22 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:37:22 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:37:22 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:37:22 2013] [debug] 200 OK (0.004599s, 217.439/s).
+[Sat Mar  9 15:37:42 2013] [debug] GET /bilder1.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:37:42 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:37:42 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:37:42 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:37:42 2013] [debug] 200 OK (0.011274s, 88.700/s).
+[Sat Mar  9 15:37:44 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:37:44 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:37:44 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:37:44 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:37:44 2013] [debug] 200 OK (0.005686s, 175.871/s).
+[Sat Mar  9 15:37:50 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:37:50 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:37:50 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:37:50 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:37:50 2013] [debug] 200 OK (0.002481s, 403.063/s).
+[Sat Mar  9 15:38:00 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:38:00 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:38:00 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:38:00 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:38:00 2013] [debug] 200 OK (0.003150s, 317.460/s).
+[Sat Mar  9 15:38:02 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:38:02 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:38:02 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:38:02 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:38:02 2013] [debug] 200 OK (0.005514s, 181.357/s).
+[Sat Mar  9 15:38:09 2013] [debug] GET /bilder2.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:38:09 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:38:09 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:38:09 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:38:09 2013] [debug] 200 OK (0.008525s, 117.302/s).
+[Sat Mar  9 15:38:13 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:38:13 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:38:13 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:38:13 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:38:13 2013] [debug] 200 OK (0.007000s, 142.857/s).
+[Sat Mar  9 15:38:15 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:38:15 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:38:15 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:38:15 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:38:15 2013] [debug] 200 OK (0.005355s, 186.741/s).
+[Sat Mar  9 15:38:19 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:38:19 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:38:19 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:38:19 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:38:19 2013] [debug] 200 OK (0.002598s, 384.911/s).
+[Sat Mar  9 15:38:29 2013] [debug] GET /overview.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 15:38:29 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:38:29 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:38:29 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:38:29 2013] [debug] 200 OK (0.003044s, 328.515/s).
+[Sat Mar  9 15:38:34 2013] [debug] GET /overview.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 15:38:34 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:38:34 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:38:34 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:38:34 2013] [debug] 200 OK (0.006676s, 149.790/s).
+[Sat Mar  9 15:38:41 2013] [debug] GET /overview.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 15:38:41 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:38:41 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:38:41 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:38:41 2013] [debug] 200 OK (0.004279s, 233.699/s).
+[Sat Mar  9 15:38:45 2013] [debug] GET /bilder2.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 15:38:45 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:38:45 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:38:45 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:38:45 2013] [debug] 200 OK (0.009534s, 104.888/s).
+[Sat Mar  9 15:38:48 2013] [debug] GET /overview.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 15:38:48 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:38:48 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:38:48 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:38:48 2013] [debug] 200 OK (0.005215s, 191.755/s).
+[Sat Mar  9 15:38:52 2013] [debug] GET /bilder1.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 15:38:52 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:38:52 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:38:52 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:38:52 2013] [debug] 200 OK (0.002556s, 391.236/s).
+[Sat Mar  9 15:38:55 2013] [debug] GET /overview.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 15:38:55 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:38:55 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:38:55 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:38:55 2013] [debug] 200 OK (0.003275s, 305.344/s).
+[Sat Mar  9 15:38:58 2013] [debug] GET /nature.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 15:38:58 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:38:58 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:38:58 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:38:58 2013] [debug] 200 OK (0.002531s, 395.101/s).
+[Sat Mar  9 15:39:14 2013] [debug] GET /bilder1.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 15:39:14 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:39:14 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:39:14 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:39:14 2013] [debug] 200 OK (0.003226s, 309.981/s).
+[Sat Mar  9 15:39:17 2013] [debug] GET /nature.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 15:39:17 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:39:17 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:39:17 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:39:17 2013] [debug] 200 OK (0.004453s, 224.568/s).
+[Sat Mar  9 15:39:20 2013] [debug] GET /overview.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 15:39:20 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:39:20 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:39:20 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:39:20 2013] [debug] 200 OK (0.008603s, 116.239/s).
+[Sat Mar  9 15:39:33 2013] [debug] GET /bilder2.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:39:33 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:39:33 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:39:33 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:39:33 2013] [debug] 200 OK (0.008761s, 114.142/s).
+[Sat Mar  9 15:39:49 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:39:49 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:39:49 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:39:49 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:39:49 2013] [debug] 200 OK (0.002617s, 382.117/s).
+[Sat Mar  9 15:39:56 2013] [debug] GET /bilder2.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:39:56 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:39:56 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:39:56 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:39:56 2013] [debug] 200 OK (0.007142s, 140.017/s).
+[Sat Mar  9 15:39:59 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:39:59 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:39:59 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:39:59 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:39:59 2013] [debug] 200 OK (0.008203s, 121.907/s).
+[Sat Mar  9 15:40:06 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:40:06 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:40:06 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:40:06 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:40:06 2013] [debug] 200 OK (0.003717s, 269.034/s).
+[Sat Mar  9 15:40:13 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:40:13 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:40:13 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:40:13 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:40:13 2013] [debug] 200 OK (0.002129s, 469.704/s).
+[Sat Mar  9 15:41:30 2013] [debug] GET /bilder2.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:41:30 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:41:30 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:41:30 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:41:30 2013] [debug] 200 OK (0.002710s, 369.004/s).
+[Sat Mar  9 15:41:35 2013] [debug] GET /bilder1.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:41:35 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:41:35 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:41:35 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:41:35 2013] [debug] 200 OK (0.004938s, 202.511/s).
+[Sat Mar  9 15:41:41 2013] [debug] GET /nature.html (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.3)).
+[Sat Mar  9 15:41:41 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:41:41 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:41:41 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:41:41 2013] [debug] 200 OK (0.004123s, 242.542/s).
+[Sat Mar  9 15:41:51 2013] [debug] GET /bilder2.html (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.3)).
+[Sat Mar  9 15:41:51 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:41:51 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:41:51 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:41:51 2013] [debug] 200 OK (0.004035s, 247.831/s).
+[Sat Mar  9 15:42:00 2013] [debug] GET /nature.html (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.3)).
+[Sat Mar  9 15:42:00 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:42:00 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:42:00 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:42:00 2013] [debug] 200 OK (0.002585s, 386.847/s).
+[Sat Mar  9 15:45:50 2013] [debug] GET /bilder1.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:45:50 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:45:50 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:45:50 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:45:50 2013] [debug] 200 OK (0.002303s, 434.216/s).
+[Sat Mar  9 15:45:51 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:45:51 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:45:51 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:45:51 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:45:51 2013] [debug] 200 OK (0.013729s, 72.839/s).
+[Sat Mar  9 15:46:04 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:46:04 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:46:04 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:46:04 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:46:04 2013] [debug] 200 OK (0.005568s, 179.598/s).
+[Sat Mar  9 15:46:28 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:46:28 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:46:28 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:46:28 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:46:28 2013] [debug] 200 OK (0.004199s, 238.152/s).
+[Sat Mar  9 15:46:33 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:46:33 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:46:33 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:46:33 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:46:33 2013] [debug] 200 OK (0.003612s, 276.855/s).
+[Sat Mar  9 15:46:52 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:46:52 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:46:52 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:46:52 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:46:52 2013] [debug] 200 OK (0.006346s, 157.580/s).
+[Sat Mar  9 15:46:54 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:46:54 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:46:54 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:46:54 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:46:54 2013] [debug] 200 OK (0.006991s, 143.041/s).
+[Sat Mar  9 15:50:29 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:50:29 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:50:29 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:50:29 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:50:29 2013] [debug] 200 OK (0.002025s, 493.827/s).
+[Sat Mar  9 15:50:32 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:50:32 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:50:32 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:50:32 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:50:32 2013] [debug] 200 OK (0.004489s, 222.767/s).
+[Sat Mar  9 15:50:39 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:50:39 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:50:39 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:50:39 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:50:39 2013] [debug] 200 OK (0.006074s, 164.636/s).
+[Sat Mar  9 15:50:43 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:50:43 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:50:43 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:50:43 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:50:43 2013] [debug] 200 OK (0.002818s, 354.862/s).
+[Sat Mar  9 15:50:50 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 15:50:50 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:50:50 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:50:50 2013] [debug] Rendering template "galery/index.html.ep".
+[Sat Mar  9 15:50:50 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 15:50:50 2013] [debug] 200 OK (0.016402s, 60.968/s).
+[Sat Mar  9 15:50:51 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 15:50:51 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 15:50:51 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 15:50:51 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 15:50:53 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:50:53 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:50:53 2013] [debug] Rendering template "galery/overview.html.ep".
+[Sat Mar  9 15:50:53 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 15:50:53 2013] [debug] 200 OK (0.038216s, 26.167/s).
+[Sat Mar  9 15:52:28 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:52:28 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:52:28 2013] [debug] Rendering template "galery/overview.html.ep".
+[Sat Mar  9 15:52:28 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 15:52:28 2013] [debug] 200 OK (0.027941s, 35.790/s).
+[Sat Mar  9 15:54:29 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:54:29 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:54:29 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:54:29 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:54:29 2013] [debug] 200 OK (0.001922s, 520.291/s).
+[Sat Mar  9 15:54:31 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:54:31 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:54:31 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:54:31 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:54:31 2013] [debug] 200 OK (0.005647s, 177.085/s).
+[Sat Mar  9 15:54:33 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:54:33 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:54:33 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:54:33 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:54:33 2013] [debug] 200 OK (0.006064s, 164.908/s).
+[Sat Mar  9 15:54:34 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:54:34 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:54:34 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:54:34 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:54:34 2013] [debug] 200 OK (0.005386s, 185.667/s).
+[Sat Mar  9 15:54:34 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:54:34 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:54:34 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:54:34 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:54:34 2013] [debug] 200 OK (0.002848s, 351.124/s).
+[Sat Mar  9 15:54:34 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:54:34 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:54:34 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:54:34 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:54:34 2013] [debug] 200 OK (0.002940s, 340.136/s).
+[Sat Mar  9 15:54:34 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:54:34 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:54:34 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:54:34 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:54:34 2013] [debug] 200 OK (0.005772s, 173.250/s).
+[Sat Mar  9 15:54:54 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 15:54:54 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:54:54 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:54:54 2013] [debug] Rendering template "galery/index.html.ep".
+[Sat Mar  9 15:54:54 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 15:54:54 2013] [debug] 200 OK (0.038772s, 25.792/s).
+[Sat Mar  9 15:54:55 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 15:54:55 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 15:54:55 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 15:54:55 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 15:54:56 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:54:56 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:54:56 2013] [debug] Rendering template "galery/overview.html.ep".
+[Sat Mar  9 15:54:56 2013] [debug] 200 OK (0.009359s, 106.849/s).
+[Sat Mar  9 15:55:05 2013] [debug] GET /bilder2.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:55:05 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:55:05 2013] [debug] Rendering template "galery/index.html.ep".
+[Sat Mar  9 15:55:05 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 15:55:05 2013] [debug] 200 OK (0.034235s, 29.210/s).
+[Sat Mar  9 15:55:10 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:55:10 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:55:10 2013] [debug] Rendering template "galery/overview.html.ep".
+[Sat Mar  9 15:55:10 2013] [debug] 200 OK (0.022693s, 44.066/s).
+[Sat Mar  9 15:55:12 2013] [debug] GET /bilder1.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:55:12 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:55:12 2013] [debug] Rendering template "galery/index.html.ep".
+[Sat Mar  9 15:55:12 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 15:55:12 2013] [debug] 200 OK (0.035216s, 28.396/s).
+[Sat Mar  9 15:55:15 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:55:15 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:55:15 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:55:15 2013] [debug] 200 OK (0.005980s, 167.224/s).
+[Sat Mar  9 15:55:18 2013] [debug] GET /bilder2.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:55:18 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:55:18 2013] [debug] Rendering template "galery/index.html.ep".
+[Sat Mar  9 15:55:18 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 15:55:18 2013] [debug] 200 OK (0.034532s, 28.959/s).
+[Sat Mar  9 15:55:21 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:55:21 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:55:21 2013] [debug] Rendering template "galery/overview.html.ep".
+[Sat Mar  9 15:55:21 2013] [debug] 200 OK (0.013420s, 74.516/s).
+[Sat Mar  9 15:55:22 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:55:22 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:55:22 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:55:22 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:55:22 2013] [debug] 200 OK (0.003026s, 330.469/s).
+[Sat Mar  9 15:55:24 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:55:24 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:55:24 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:55:24 2013] [debug] 200 OK (0.002117s, 472.367/s).
+[Sat Mar  9 15:55:25 2013] [debug] GET /bilder2.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:55:25 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:55:25 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:55:25 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:55:25 2013] [debug] 200 OK (0.002263s, 441.891/s).
+[Sat Mar  9 15:55:29 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:55:29 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 15:55:29 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 15:55:29 2013] [debug] 200 OK (0.003260s, 306.748/s).
+[Sat Mar  9 15:55:31 2013] [debug] GET /bilder1.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 15:55:31 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 15:55:31 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 15:55:31 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 15:55:31 2013] [debug] 200 OK (0.004590s, 217.865/s).
+[Sat Mar  9 16:00:16 2013] [debug] GET /bilder1.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 16:00:16 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 16:00:16 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 16:00:16 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 16:00:16 2013] [debug] 200 OK (0.002439s, 410.004/s).
+[Sat Mar  9 16:00:18 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 16:00:18 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 16:00:18 2013] [debug] Rendering template "galery/overview.html.ep".
+[Sat Mar  9 16:00:18 2013] [debug] 200 OK (0.020625s, 48.485/s).
+[Sat Mar  9 16:02:31 2013] [debug] GET /bilder1.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 16:02:31 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 16:02:31 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 16:02:31 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 16:02:31 2013] [debug] 200 OK (0.002557s, 391.083/s).
+[Sat Mar  9 16:02:34 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 16:02:34 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 16:02:34 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 16:02:34 2013] [debug] 200 OK (0.003640s, 274.725/s).
+[Sat Mar  9 16:04:10 2013] [debug] GET /bilder1.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 16:04:10 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 16:04:10 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 16:04:11 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 16:04:11 2013] [debug] 200 OK (0.007589s, 131.770/s).
+[Sat Mar  9 16:04:13 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 16:04:13 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 16:04:13 2013] [debug] Rendering template "galery/overview.html.ep".
+[Sat Mar  9 16:04:13 2013] [debug] 200 OK (0.021872s, 45.721/s).
+[Sat Mar  9 16:04:29 2013] [debug] GET /bilder1.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 16:04:29 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 16:04:29 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 16:04:29 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 16:04:29 2013] [debug] 200 OK (0.002440s, 409.836/s).
+[Sat Mar  9 16:04:31 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 16:04:31 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 16:04:31 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 16:04:31 2013] [debug] 200 OK (0.005413s, 184.740/s).
+[Sat Mar  9 16:05:43 2013] [debug] GET /bilder1.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 16:05:43 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 16:05:43 2013] [debug] Rendering template "galery/index.html.ep".
+[Sat Mar  9 16:05:43 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 16:05:43 2013] [debug] 200 OK (0.015949s, 62.700/s).
+[Sat Mar  9 16:05:46 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 16:05:46 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 16:05:46 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 16:05:46 2013] [debug] 200 OK (0.006392s, 156.446/s).
+[Sat Mar  9 16:05:59 2013] [debug] GET /bilder1.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 16:05:59 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 16:05:59 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 16:05:59 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 16:05:59 2013] [debug] 200 OK (0.002770s, 361.011/s).
+[Sat Mar  9 16:06:01 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 16:06:01 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 16:06:01 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 16:06:01 2013] [debug] 200 OK (0.004137s, 241.721/s).
+[Sat Mar  9 16:06:12 2013] [debug] GET /bilder1.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 16:06:12 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 16:06:12 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 16:06:12 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 16:06:12 2013] [debug] 200 OK (0.006174s, 161.970/s).
+[Sat Mar  9 16:06:15 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 16:06:15 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 16:06:15 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 16:06:15 2013] [debug] 200 OK (0.002085s, 479.616/s).
+[Sat Mar  9 16:06:23 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 16:06:23 2013] [debug] GET /bilder1.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 16:06:23 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 16:06:23 2013] [debug] Rendering template "galery/index.html.ep".
+[Sat Mar  9 16:06:23 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 16:06:23 2013] [debug] 200 OK (0.013786s, 72.537/s).
+[Sat Mar  9 16:06:24 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 16:06:26 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 16:06:26 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 16:06:26 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 16:06:26 2013] [debug] Rendering template "galery/overview.html.ep".
+[Sat Mar  9 16:06:26 2013] [debug] 200 OK (0.022822s, 43.817/s).
+[Sat Mar  9 16:06:27 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 16:06:27 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 16:06:40 2013] [debug] GET /bilder1.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 16:06:40 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 16:06:40 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 16:06:40 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 16:06:40 2013] [debug] 200 OK (0.003941s, 253.743/s).
+[Sat Mar  9 16:06:41 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 16:06:41 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 16:06:41 2013] [debug] Rendering template "galery/overview.html.ep".
+[Sat Mar  9 16:06:41 2013] [debug] 200 OK (0.017144s, 58.329/s).
+[Sat Mar  9 16:06:45 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 16:06:45 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 16:06:45 2013] [debug] Rendering template "galery/index.html.ep".
+[Sat Mar  9 16:06:45 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 16:06:45 2013] [debug] 200 OK (0.031357s, 31.891/s).
+[Sat Mar  9 16:06:53 2013] [debug] GET /nature.html (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.3)).
+[Sat Mar  9 16:06:53 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 16:06:53 2013] [debug] Rendering template "galery/index.html.ep".
+[Sat Mar  9 16:06:53 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 16:06:53 2013] [debug] 200 OK (0.017989s, 55.590/s).
+[Sat Mar  9 16:06:56 2013] [debug] GET /bilder2.html (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.3)).
+[Sat Mar  9 16:06:56 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 16:06:56 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 16:06:56 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 16:06:56 2013] [debug] 200 OK (0.003212s, 311.333/s).
+[Sat Mar  9 16:07:12 2013] [debug] GET /nature.html (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.3)).
+[Sat Mar  9 16:07:12 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 16:07:12 2013] [debug] Rendering template "galery/index.html.ep".
+[Sat Mar  9 16:07:12 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 16:07:12 2013] [debug] 200 OK (0.024707s, 40.474/s).
+[Sat Mar  9 16:07:30 2013] [debug] GET /bilder2.html (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.3)).
+[Sat Mar  9 16:07:30 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 16:07:30 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 16:07:30 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 16:07:30 2013] [debug] 200 OK (0.007174s, 139.392/s).
+[Sat Mar  9 16:07:36 2013] [debug] GET /nature.html (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.3)).
+[Sat Mar  9 16:07:36 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 16:07:36 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 16:07:36 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 16:07:36 2013] [debug] 200 OK (0.002500s, 400.000/s).
+[Sat Mar  9 16:07:43 2013] [debug] GET /bilder2.html (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.3)).
+[Sat Mar  9 16:07:43 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 16:07:43 2013] [debug] Rendering template "galery/index.html.ep".
+[Sat Mar  9 16:07:43 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 16:07:43 2013] [debug] 200 OK (0.024157s, 41.396/s).
+[Sat Mar  9 16:07:48 2013] [debug] GET /overview.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 16:07:48 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 16:07:48 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 16:07:48 2013] [debug] 200 OK (0.002253s, 443.853/s).
+[Sat Mar  9 16:07:54 2013] [debug] GET /bilder1.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 16:07:54 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 16:07:54 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 16:07:54 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 16:07:54 2013] [debug] 200 OK (0.005190s, 192.678/s).
+[Sat Mar  9 16:07:58 2013] [debug] GET /overview.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 16:07:58 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 16:07:59 2013] [debug] Rendering cached template galery/overview.html.ep.
+[Sat Mar  9 16:07:59 2013] [debug] 200 OK (0.002317s, 431.593/s).
+[Sat Mar  9 16:08:04 2013] [debug] GET /nature.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 16:08:04 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 16:08:04 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 16:08:04 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 16:08:04 2013] [debug] 200 OK (0.002478s, 403.551/s).
+[Sat Mar  9 16:08:13 2013] [debug] GET /overview.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 16:08:13 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 16:08:13 2013] [debug] Rendering template "galery/overview.html.ep".
+[Sat Mar  9 16:08:13 2013] [debug] 200 OK (0.011269s, 88.739/s).
+[Sat Mar  9 16:08:15 2013] [debug] GET /bilder2.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 16:08:15 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 16:08:15 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 16:08:15 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 16:08:15 2013] [debug] 200 OK (0.003334s, 299.940/s).
+[Sat Mar  9 16:08:22 2013] [debug] GET /bilder1.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 16:08:22 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 16:08:22 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 16:08:22 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 16:08:22 2013] [debug] 200 OK (0.008352s, 119.732/s).
+[Sat Mar  9 16:08:24 2013] [debug] GET /nature.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 16:08:24 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 16:08:24 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 16:08:24 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 16:08:24 2013] [debug] 200 OK (0.003409s, 293.341/s).
+[Sat Mar  9 16:08:27 2013] [debug] GET /bilder1.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 16:08:27 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 16:08:27 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 16:08:27 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 16:08:27 2013] [debug] 200 OK (0.002384s, 419.463/s).
+[Sat Mar  9 16:08:29 2013] [debug] GET /bilder2.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 16:08:29 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 16:08:29 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 16:08:29 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 16:08:29 2013] [debug] 200 OK (0.003575s, 279.720/s).
+[Sat Mar  9 16:08:31 2013] [debug] GET /nature.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 16:08:31 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 16:08:31 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 16:08:31 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 16:08:31 2013] [debug] 200 OK (0.003070s, 325.733/s).
+[Sat Mar  9 16:08:33 2013] [debug] GET /bilder1.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 16:08:33 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 16:08:33 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 16:08:33 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 16:08:33 2013] [debug] 200 OK (0.004547s, 219.925/s).
+[Sat Mar  9 16:08:35 2013] [debug] GET /nature.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 16:08:35 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 16:08:35 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 16:08:35 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 16:08:35 2013] [debug] 200 OK (0.004007s, 249.563/s).
+[Sat Mar  9 16:08:37 2013] [debug] GET /bilder2.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 16:08:37 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 16:08:37 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 16:08:37 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 16:08:37 2013] [debug] 200 OK (0.002258s, 442.870/s).
+[Sat Mar  9 16:08:41 2013] [debug] GET /bilder1.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 16:08:41 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 16:08:41 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 16:08:41 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 16:08:41 2013] [debug] 200 OK (0.007032s, 142.207/s).
+[Sat Mar  9 16:08:43 2013] [debug] GET /nature.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 16:08:43 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 16:08:43 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 16:08:43 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 16:08:43 2013] [debug] 200 OK (0.003764s, 265.675/s).
+[Sat Mar  9 16:08:44 2013] [debug] GET /bilder1.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 16:08:44 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 16:08:44 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 16:08:44 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 16:08:44 2013] [debug] 200 OK (0.004118s, 242.836/s).
+[Sat Mar  9 16:08:54 2013] [debug] GET /nature.html (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.3)).
+[Sat Mar  9 16:08:54 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 16:08:54 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 16:08:54 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 16:08:54 2013] [debug] 200 OK (0.002793s, 358.038/s).
+[Sat Mar  9 16:08:56 2013] [debug] GET /bilder1.html (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.3)).
+[Sat Mar  9 16:08:56 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 16:08:56 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 16:08:56 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 16:08:56 2013] [debug] 200 OK (0.003850s, 259.740/s).
+[Sat Mar  9 16:09:14 2013] [debug] GET /nature.html (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.3)).
+[Sat Mar  9 16:09:14 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 16:09:14 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 16:09:14 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 16:09:14 2013] [debug] 200 OK (0.004442s, 225.124/s).
+[Sat Mar  9 16:09:22 2013] [debug] GET /overview.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 16:09:22 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 16:09:22 2013] [debug] Rendering template "galery/overview.html.ep".
+[Sat Mar  9 16:09:22 2013] [debug] 200 OK (0.008403s, 119.005/s).
+[Sat Mar  9 16:09:25 2013] [debug] GET /nature.html (Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22).
+[Sat Mar  9 16:09:25 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 16:09:25 2013] [debug] Rendering cached template galery/index.html.ep.
+[Sat Mar  9 16:09:25 2013] [debug] Rendering cached template layouts/default.html.ep.
+[Sat Mar  9 16:09:25 2013] [debug] 200 OK (0.002562s, 390.320/s).
+[Sat Mar  9 16:15:27 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 16:15:27 2013] [debug] GET /nature.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 16:15:27 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 16:15:27 2013] [debug] Rendering template "galery/index.html.ep".
+[Sat Mar  9 16:15:27 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 16:15:27 2013] [debug] 200 OK (0.022341s, 44.761/s).
+[Sat Mar  9 16:15:28 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 16:15:28 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 16:15:28 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 16:15:28 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  9 16:15:30 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 16:15:30 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 16:15:30 2013] [debug] Rendering template "galery/overview.html.ep".
+[Sat Mar  9 16:15:30 2013] [debug] 200 OK (0.019836s, 50.413/s).
+[Sat Mar  9 16:15:35 2013] [debug] GET /overview.html (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0).
+[Sat Mar  9 16:15:35 2013] [debug] Routing to controller "Galery::Html" and action "overview".
+[Sat Mar  9 16:15:35 2013] [debug] Rendering template "galery/overview.html.ep".
+[Sat Mar  9 16:15:35 2013] [debug] 200 OK (0.020216s, 49.466/s).
+[Sat Mar  9 16:15:50 2013] [debug] GET /bilder2.html (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.3)).
+[Sat Mar  9 16:15:50 2013] [debug] Routing to controller "Galery::Html" and action "index".
+[Sat Mar  9 16:15:50 2013] [debug] Rendering template "galery/index.html.ep".
+[Sat Mar  9 16:15:50 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  9 16:15:50 2013] [debug] 200 OK (0.019765s, 50.594/s).

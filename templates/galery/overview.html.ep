@@ -1,8 +1,5 @@
-% layout 'default';
-% title 'Overview';
 
-
-<script type="text/javascript" src="/js/jquery-1.9.1.min.js"></script>
+<div id="inner_ov">
 <script type="text/javascript" src="/js/overview.js"></script>
 <link rel="stylesheet" type="text/css" href="/css/overview.css">
 
@@ -16,8 +13,7 @@
     <div class="item picture">
       <a href="/<%= $category %>.html#<%= $index %>"><img src="<%=$picture_src%>"></a>
     </div>
-
-
-
  %}
 %}
+<div style="clear:both"></div>
+</div>
