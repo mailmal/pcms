@@ -26,9 +26,9 @@
 	     </li>
 	    </ul>
 	  </div>
-      <div class="transparent fwd" ><a href="javascript:next_image()">next</a> </div>
-      <div class="transparent bck" ><a href="javascript:next_image(true)">back</a> </div>
-      <div class="transparent ovw" ><a href="<%=$sub_page%>/overview.html">overview</a></div> 
+      <div class="transparent bck" ><a href="javascript:next_image(true)">&lt;</a></div>
+      <div class="transparent fwd" ><a href="javascript:next_image()">&gt;</a></div>
+      <div class="transparent ovw" ><a href="<%=$sub_page%>/overview.html">oo<br>oo</a></div> 
   </div>
 
 

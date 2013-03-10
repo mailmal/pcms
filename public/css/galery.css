@@ -47,6 +47,17 @@ html, body {
   overflow:visible;
 }
 
+*.controls a {
+  text-decoration:none;
+  display:block;
+  height:40px;
+}
+
+*.controls a:hover {
+  text-decoration:none;
+  background-color:#ddd;
+}
+
 *.controls > div  {
   position:absolute;
   background-color:#000;
@@ -56,18 +67,22 @@ html, body {
 *.fwd, *.bck, *.ovw {
   width: 40px;
   height:40px;
+  font-weight:900;
 }
 
 *.controls *.fwd {
-  left:110px;
+  left:155px;
+  font-size:1.3em;
 }
 
 *.controls > *.bck {
-  left:150px;
+  left:110px;
+  font-size:1.3em;
 }
 
 *.controls > *.ovw {
-  left:200px;
+  left:250px;
+  font-size:0.7em;
 }
 
 *.link_list {
@@ -75,10 +90,13 @@ html, body {
   position:absolute;
   bottom:10px;
   left:2px;
+  background-color:#000;
 }
 
 *.link_list *.current_category {
   width:100px !important;
+  height:40px;
+  background-color:#000;
 }
 
 *.link_list > ul {
@@ -114,11 +132,9 @@ html, body {
 
 *.link_list a{
   display:block;
-  height:50px;
   width:100px;
-  padding:2px;
+  margin:2px;
   background-color:#000;
-  text-decoration:none;
 }
 
 /*
