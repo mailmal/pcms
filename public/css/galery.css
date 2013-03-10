@@ -37,26 +37,29 @@ html, body {
   left:50px;
   width:300px;
   height:50px;
-  background-color:#334433;
   overflow:visible;
 }
 
-*.controls > a {
-  display:block;
+*.controls > div  {
   position:absolute;
+  background-color:#000;
   bottom:10px;
-  width: 40px;
 }
 
-*.controls > a.fwd {
+*.fwd, *.bck, *.ovw {
+  width: 40px;
+  height:40px;
+}
+
+*.controls *.fwd {
   left:110px;
 }
 
-*.controls > a.bck {
+*.controls > *.bck {
   left:150px;
 }
 
-*.controls > a.ovw {
+*.controls > *.ovw {
   left:200px;
 }
 
@@ -67,15 +70,18 @@ html, body {
   left:2px;
 }
 
+*.link_list *.current_category {
+  width:100px !important;
+}
+
 *.link_list > ul {
   position:absolute;
   bottom:0px;
   left:0px;
   list-style: none;
-  background-color:#665566;
   margin:0px;
   padding:0px;
-  width:100;
+  width:100%;
 }
 
 *.link_list ul li ul{
@@ -86,9 +92,6 @@ html, body {
 }
 
 *.link_list ul:hover li ul{
-  background: #999;
-  border: #fff solid;
-  border-width: 1px;
   display: block;
   position: absolute;
   bottom: 0px;
@@ -96,9 +99,6 @@ html, body {
 }
 
 *.link_list ul.hover li ul{
-  background: #999;
-  border: #fff solid;
-  border-width: 1px;
   display: block;
   position: absolute;
   bottom: 0px;
@@ -108,11 +108,13 @@ html, body {
 *.link_list a{
   display:block;
   height:50px;
-  width:90px;
+  width:100px;
   padding:2px;
+  background-color:#000;
   text-decoration:none;
-  background-color:#eeeeee;
 }
+
+/*description*/
 
 *.description {
   position: absolute;

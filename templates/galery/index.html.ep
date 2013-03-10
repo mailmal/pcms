@@ -13,11 +13,11 @@
 	  <div class="link_list">
 	    <ul>
 	     <li>
-	       <%=$category%>
+	       <div class="current_category transparent"><%=$category%></div>
 	       <ul>
 
 	       %for my $category( grep{$_ ne $category }@$categories ){
-		 <li>
+		 <li class="transparent">
 		   <a href="<%=$sub_page%>/<%=$category%>.html"><%=$category%></a>
 	         </li>
 	       %}
@@ -26,9 +26,9 @@
 	     </li>
 	    </ul>
 	  </div>
-      <a class="bck" href="javascript:next_image(true)">back</a> 
-      <a class="fwd" href="javascript:next_image()">next</a> 
-      <a class="ovw" href="<%=$sub_page%>/overview.html">overview</a> 
+      <div class="transparent fwd" ><a href="javascript:next_image()">next</a> </div>
+      <div class="transparent bck" ><a href="javascript:next_image(true)">back</a> </div>
+      <div class="transparent ovw" ><a href="<%=$sub_page%>/overview.html">overview</a></div> 
   </div>
 
 
