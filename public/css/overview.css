@@ -16,6 +16,7 @@
 
 *.item img {
   height:90px;
+  border:0px;
   display:block;
 }
 
