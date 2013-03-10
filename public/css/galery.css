@@ -52,11 +52,14 @@ html, body {
   display:block;
   height:40px;
   color:#fff;
+  border:2px;
+  border-style:groove;
+  border-color:#998899;     
 }
 
 *.controls a:hover {
   text-decoration:none;
-  background-color:#ddd;
+  background-color:#110011;
 }
 
 *.controls > div  {
@@ -67,6 +70,7 @@ html, body {
   width: 40px;
   height:40px;
   font-weight:900;
+  margin: 0px 5px;
   float:right;
 }
 
@@ -118,6 +122,13 @@ html, body {
   padding:0px;
 }
 
+*.link_list ul li div div{
+  position:absolute;
+  left:10px;
+  bottom:10px;
+}
+
+
 *.link_list ul:hover li ul{
   display: block;
 }
@@ -130,6 +141,11 @@ html, body {
   width:100px;
   margin:0px;
   background-color:#000;
+}
+
+*.link_list a div{
+   position:relative;
+   margin: 10px;
 }
 
 /*

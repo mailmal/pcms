@@ -4,11 +4,15 @@
   display:block;
   float:left;
   margin:5px;
+
+  border-width:1px;
+  border-style:groove;
+  border-color:#eeddee;     
 }
 
 *.item span{
   height:90px;
-  width:120px;
+  width:140px;
   display:block;
   vertical-align:middle;
   float:left;
@@ -17,6 +21,7 @@
 *.item img {
   height:90px;
   border:0px;
+  border-style:none;
   display:block;
 }
 
@@ -28,6 +33,6 @@
 *.bordered {
   border-style: groove;
   border-width: 2px 5px 5px 2px;
-  border-color: #443344;
+  border-color: #eeddee;
   padding:10px;
 }

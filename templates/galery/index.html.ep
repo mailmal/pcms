@@ -17,18 +17,18 @@
 
 	       %for my $category( grep{$_ ne $category }@$categories ){
 		 <li>
-		   <a href="<%=$sub_page%>/<%=$category%>.html"><%=$category%></a>
+		   <a href="<%=$sub_page%>/<%=$category%>.html"><div class="menu_entry"><%=$category%></div></a>
 	         </li>
 	       %}
 
 	       </ul>      
-	       <div class="current_category transparent"><%=$category%></div>
+	       <div class="current_category transparent"><div class="menu_enty"><%=$category%></div></div>
 	     </li>
 	    </ul>
 	  </div>
-      <div class="transparent bck" ><a href="javascript:next_image(true)">&lt;</a></div>
+      <div class="transparent ovw" ><a href="<%=$sub_page%>/overview.html">OOO<br>OOO<br>OOO</a></div> 
       <div class="transparent fwd" ><a href="javascript:next_image()">&gt;</a></div>
-      <div class="transparent ovw" ><a href="<%=$sub_page%>/overview.html">oo<br>oo</a></div> 
+      <div class="transparent bck" ><a href="javascript:next_image(true)">&lt;</a></div>
   </div>
 
 
