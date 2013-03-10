@@ -67,6 +67,7 @@ html, body {
   width: 40px;
   height:40px;
   font-weight:900;
+  float:right;
 }
 
 *.controls *.fwd {
@@ -85,6 +86,9 @@ html, body {
 *.link_list {
   width:100px;
   background-color:#000;
+  position:absolute;
+  left:0px;
+  bottom:10px;
 }
 
 *.link_list *.current_category {
@@ -98,6 +102,13 @@ html, body {
   margin:0px;
   padding:0px;
   width:100%;
+  position:absolute;
+  bottom:0px;	 
+}
+
+*.link_list ul li{
+  margin:0px;
+  padding:0px;
 }
 
 *.link_list ul li ul{
@@ -117,7 +128,7 @@ html, body {
 
 *.link_list a{
   width:100px;
-  margin:2px;
+  margin:0px;
   background-color:#000;
 }
 

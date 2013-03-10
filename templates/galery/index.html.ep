@@ -13,7 +13,6 @@
 	  <div class="link_list">
 	    <ul>
 	     <li>
-	       <div class="current_category transparent"><%=$category%></div>
 	       <ul>
 
 	       %for my $category( grep{$_ ne $category }@$categories ){
@@ -23,6 +22,7 @@
 	       %}
 
 	       </ul>      
+	       <div class="current_category transparent"><%=$category%></div>
 	     </li>
 	    </ul>
 	  </div>
