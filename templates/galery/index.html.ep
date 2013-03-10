@@ -30,13 +30,11 @@
       <div class="transparent fwd" ><a href="javascript:next_image()">&gt;</a></div>
       <div class="transparent bck" ><a href="javascript:next_image(true)">&lt;</a></div>
   </div>
-
-
-  <div class="description transparent">
-  </div>
+</div>
+<div class="description transparent">
+</div>
 
 <div class="inner_div transparent">
-</div>
 </div>
 
 

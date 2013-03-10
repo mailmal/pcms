@@ -14,7 +14,7 @@ my $sub_page = $ARGV[0] || '';
 
 $ENV{sub_page} = $sub_page;
 
-system("mkdir -p $base_dir$sub_page");
+system("mkdir -p $base_dir/$sub_page");
 
 copy_content();
 

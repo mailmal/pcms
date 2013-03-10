@@ -1,26 +1,25 @@
 
 *.item {
-  height:90px;
+  height:100px;
   display:block;
   float:left;
   margin:5px;
-
   border-width:1px;
   border-style:groove;
   border-color:#eeddee;     
 }
 
 *.item span{
-  height:90px;
   width:140px;
   display:block;
   vertical-align:middle;
   float:left;
 }
+img { border: 0px }
 
 *.item img {
-  height:90px;
   border:0px;
+  height:100px;
   border-style:none;
   display:block;
 }
@@ -28,6 +27,7 @@
 #inner_ov {
   width:85%;
   margin:50px auto;
+  background-color:#000;
 }
 
 *.bordered {
