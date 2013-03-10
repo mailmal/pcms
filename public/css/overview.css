@@ -1,11 +1,32 @@
 
-div.item {
-  width:75;
-  height:50;
+*.item {
+  height:90px;
+  display:block;
+  float:left;
+  margin:5px;
+}
+
+*.item span{
+  height:90px;
+  width:120px;
+  display:block;
+  vertical-align:middle;
   float:left;
 }
 
 *.item img {
-  width:160;
   height:90px;
+  display:block;
+}
+
+#inner_ov {
+  width:85%;
+  margin:50px auto;
+}
+
+*.bordered {
+  border-style: groove;
+  border-width: 2px 5px 5px 2px;
+  border-color: #443344;
+  padding:10px;
 }

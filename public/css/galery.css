@@ -140,10 +140,12 @@ div.real_content {
 
 *.inner_div {
   display:none;
-  position:relative;
-  margin:200px auto;
-  z-index:999;
-  width:85%;
+  position:fixed;
+  z-index:9999;
+  top:0px;
+  bottom:0px;
+  left:0px;
+  right:0px;     
   background-color:#000000
 }
 
