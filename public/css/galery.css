@@ -51,6 +51,7 @@ html, body {
   text-decoration:none;
   display:block;
   height:40px;
+  color:#fff;
 }
 
 *.controls a:hover {
@@ -59,9 +60,7 @@ html, body {
 }
 
 *.controls > div  {
-  position:absolute;
   background-color:#000;
-  bottom:10px;
 }
 
 *.fwd, *.bck, *.ovw {
@@ -71,12 +70,10 @@ html, body {
 }
 
 *.controls *.fwd {
-  left:155px;
   font-size:1.3em;
 }
 
 *.controls > *.bck {
-  left:110px;
   font-size:1.3em;
 }
 
@@ -87,9 +84,6 @@ html, body {
 
 *.link_list {
   width:100px;
-  position:absolute;
-  bottom:10px;
-  left:2px;
   background-color:#000;
 }
 
@@ -100,9 +94,6 @@ html, body {
 }
 
 *.link_list > ul {
-  position:absolute;
-  bottom:0px;
-  left:0px;
   list-style: none;
   margin:0px;
   padding:0px;
@@ -118,20 +109,13 @@ html, body {
 
 *.link_list ul:hover li ul{
   display: block;
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
 }
 
 *.link_list ul.hover li ul{
   display: block;
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
 }
 
 *.link_list a{
-  display:block;
   width:100px;
   margin:2px;
   background-color:#000;

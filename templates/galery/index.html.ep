@@ -17,7 +17,7 @@
 	       <ul>
 
 	       %for my $category( grep{$_ ne $category }@$categories ){
-		 <li class="transparent">
+		 <li>
 		   <a href="<%=$sub_page%>/<%=$category%>.html"><%=$category%></a>
 	         </li>
 	       %}
