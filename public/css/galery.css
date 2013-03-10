@@ -6,6 +6,9 @@ html, body {
    color:#ffffff;
 }
 
+/*
+    theslide
+*/
 *.visible_content {
    width: 100%;
    height:100%;
@@ -30,6 +33,10 @@ html, body {
   max-height: 90%;
 }
 
+
+/*
+    controls
+*/
 
 *.controls {
   position: absolute;
@@ -114,6 +121,10 @@ html, body {
   background-color:#eeeeee;
 }
 
+/*
+    description
+*/
+
 *.description {
   position: absolute;
   bottom: 20px;
@@ -127,33 +138,6 @@ div.real_content {
   display:none;
 }
 
-.transparent {
-	/* Required for IE 5, 6, 7 */
-	/* ...or something to trigger hasLayout, like zoom: 1; */
-		
-	/* Theoretically for IE 8 & 9 (more valid) */	
-	/* ...but not required as filter works too */
-	/* should come BEFORE filter */
-	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
-	
-	/* This works in IE 8 & 9 too */
-	/* ... but also 5, 6, 7 */
-	filter: alpha(opacity=85);
-	
-	/* Older than Firefox 0.9 */
-	-moz-opacity:0.85;
-	
-	/* Safari 1.x (pre WebKit!) */
-	-khtml-opacity: 0.85;
-    
-	/* Modern!
-	/* Firefox 0.9+, Safari 2?, Chrome any?
-	/* Opera 9+, IE 9+ */
-	opacity: 0.85;
-}
-
-
-
 *.inner_div {
   display:none;
   position:relative;
@@ -161,6 +145,31 @@ div.real_content {
   z-index:999;
   width:85%;
   background-color:#000000
+}
+
+.transparent {
+  /* Required for IE 5, 6, 7 */
+  /* ...or something to trigger hasLayout, like zoom: 1; */
+
+  /* Theoretically for IE 8 & 9 (more valid) */
+  /* ...but not required as filter works too */
+  /* should come BEFORE filter */
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+
+  /* This works in IE 8 & 9 too */
+  /* ... but also 5, 6, 7 */
+  filter: alpha(opacity=85);
+
+  /* Older than Firefox 0.9 */
+  -moz-opacity:0.85;
+
+  /* Safari 1.x (pre WebKit!) */
+  -khtml-opacity: 0.85;
+
+  /* Modern!
+  /* Firefox 0.9+, Safari 2?, Chrome any?
+  /* Opera 9+, IE 9+ */
+  opacity: 0.85;
 }
 
 
