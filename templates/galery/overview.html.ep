@@ -1,11 +1,11 @@
 
-<div id="inner_ov">
+<div id="inner_ov" class="bordered">
 <script type="text/javascript" src="<%=$sub_page%>/js/overview.js"></script>
 <link rel="stylesheet" type="text/css" href="<%=$sub_page%>/css/overview.css">
 
-% for my $category ( keys \%$items ){
+% for my $category ( sort { $a cmp $b } keys \%$items ){
 % my $index=-1;
-  <div class="item category"><%= $category %></div>
+  <div class="item category"><span><%= $category %></span></div>
 % for my $picture( @{$items->{$category}}){
   % my $picture_src = "$sub_page/galery/".$picture->{picture};
   % my $picture_dsc = $picture->{description};
