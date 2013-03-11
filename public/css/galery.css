@@ -21,6 +21,7 @@ html, body {
   left: -50%; 
   width: 200%; 
   height: 200%;
+  overflow:hidden;
 }
 
 .picture_slide img {
@@ -38,7 +39,7 @@ html, body {
 */
 
 *.controls {
-  position: absolute;
+  position: fixed;
   bottom: 20px;
   left:0px;
   right:0px;

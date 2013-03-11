@@ -39,7 +39,7 @@
 </div>
 
 
-<div class="real_content">
+<div class="real_content" style="display:none">
   <div class="category">
     <span class="category_name"><%=$category %></span>
     % for my $picture ( sort { $a->{picture} cmp $b->{picture} } @$pictures ) {
