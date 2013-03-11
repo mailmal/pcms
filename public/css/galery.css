@@ -4,6 +4,7 @@ html, body {
    margin:0px;
    background-color:#000;
    color:#ffffff;
+   font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 /*
@@ -39,10 +40,14 @@ html, body {
 *.controls {
   position: absolute;
   bottom: 20px;
-  left:50px;
-  width:300px;
-  height:50px;
+  left:0px;
+  right:0px;
+  width:800px;
+  height:40px;
+  margin: 0px auto;
   overflow:visible;
+
+  background-color:#000;
 }
 
 *.controls a {
@@ -50,9 +55,7 @@ html, body {
   display:block;
   height:40px;
   color:#fff;
-  border:2px;
-  border-style:groove;
-  border-color:#998899;     
+  outline:none
 }
 
 *.controls a:hover {
@@ -61,7 +64,7 @@ html, body {
 }
 
 *.controls > div  {
-  background-color:#000;
+  border-right:solid 1px #fff;
 }
 
 *.fwd, *.bck, *.ovw {
@@ -69,34 +72,52 @@ html, body {
   height:40px;
   font-weight:900;
   margin: 0px 5px;
-  float:right;
+  position:absolute;
 }
 
 *.controls *.fwd {
   font-size:1.3em;
+  left:240px;
 }
 
 *.controls > *.bck {
   font-size:1.3em;
+  left:200px;
 }
 
 *.controls > *.ovw {
-  left:250px;
+  left:280px;
   font-size:0.7em;
 }
 
+*.description {
+  position: absolute;
+  bottom: 0px;
+  left:326px;
+  width:470px;
+  height:40px;
+  margin:0px;
+  padding: 0px 0px 0px 5px;
+}
+
+
+/*
+
+   Menue
+
+*/
+
 *.link_list {
-  width:100px;
-  background-color:#000;
+  width:204px;
   position:absolute;
   left:0px;
-  bottom:10px;
+  margin:0px;
 }
 
 *.link_list *.current_category {
-  width:100px !important;
+  width:100%;
   height:40px;
-  background-color:#000;
+  border-right:solid 1px #fff;
 }
 
 *.link_list > ul {
@@ -104,13 +125,14 @@ html, body {
   margin:0px;
   padding:0px;
   width:100%;
+  bottom:-40px;
   position:absolute;
-  bottom:0px;	 
 }
 
 *.link_list ul li{
   margin:0px;
   padding:0px;
+  width:100%;
 }
 
 *.link_list ul li ul{
@@ -118,12 +140,11 @@ html, body {
   list-style: none;
   margin:0px;
   padding:0px;
+  bottom:0px;
 }
 
 *.link_list ul li div div{
   position:absolute;
-  left:10px;
-  bottom:10px;
 }
 
 
@@ -135,29 +156,31 @@ html, body {
   display: block;
 }
 
+*.link_list ul li ul li {
+  border-bottom:solid 1px #fff;
+  height:40px;
+}
+
+
 *.link_list a{
-  width:100px;
-  margin:0px;
+  width:100%;
+  height:100%;
   background-color:#000;
 }
 
 *.link_list a div{
-   position:relative;
-   margin: 10px;
+  height:40px;
+  padding:5px;
 }
 
-/*
-    description
+div.menu_enty {
+  margin:5px;
+};
+
+/* 
+   other content 
 */
 
-*.description {
-  position: fixed;
-  bottom: 20px;
-  right:50px;
-  width:350px;
-  height:100px;
-  background-color:#334433;
-}
 
 div.real_content {
   display:none;
@@ -175,28 +198,19 @@ div.real_content {
 }
 
 .transparent {
-  /* Required for IE 5, 6, 7 */
-  /* ...or something to trigger hasLayout, like zoom: 1; */
-
-  /* Theoretically for IE 8 & 9 (more valid) */
-  /* ...but not required as filter works too */
-  /* should come BEFORE filter */
   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
-
-  /* This works in IE 8 & 9 too */
-  /* ... but also 5, 6, 7 */
   filter: alpha(opacity=85);
-
-  /* Older than Firefox 0.9 */
   -moz-opacity:0.85;
-
-  /* Safari 1.x (pre WebKit!) */
   -khtml-opacity: 0.85;
-
-  /* Modern!
-  /* Firefox 0.9+, Safari 2?, Chrome any?
-  /* Opera 9+, IE 9+ */
   opacity: 0.85;
+}
+
+.transparent_little {
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  -moz-opacity:0.50;
+  -khtml-opacity: 0.50;
+  opacity: 0.50;
 }
 
 

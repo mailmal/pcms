@@ -9,7 +9,7 @@
 <div class="visible_content">
   <div class="picture_slide">
   </div>
-  <div class="controls transparent">
+  <div class="controls transparent_little">
 	  <div class="link_list">
 	    <ul>
 	     <li>
@@ -22,16 +22,17 @@
 	       %}
 
 	       </ul>      
-	       <div class="current_category transparent"><div class="menu_enty"><%=$category%></div></div>
+	       <div class="current_category"><div class="menu_enty"><%=$category%></div></div>
 	     </li>
 	    </ul>
 	  </div>
-      <div class="transparent ovw" ><a href="<%=$sub_page%>/overview.html">OOO<br>OOO<br>OOO</a></div> 
-      <div class="transparent fwd" ><a href="javascript:next_image()">&gt;</a></div>
-      <div class="transparent bck" ><a href="javascript:next_image(true)">&lt;</a></div>
-  </div>
+      <div class="ovw" ><a href="<%=$sub_page%>/overview.html">OOO<br>OOO<br>OOO</a></div> 
+      <div class="fwd" ><a href="javascript:next_image()">&gt;</a></div>
+      <div class="bck" ><a href="javascript:next_image(true)">&lt;</a></div>
+
+      <div class="description">
 </div>
-<div class="description transparent">
+  </div>
 </div>
 
 <div class="inner_div transparent">
