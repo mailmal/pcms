@@ -16,10 +16,10 @@ html, body {
 
 .picture_slide {
   position: fixed; 
-  top: -30%; 
-  left: -30%; 
-  width: 160%; 
-  height: 160%;
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
 }
 
 .picture_slide img {
@@ -29,10 +29,8 @@ html, body {
   right: 0; 
   bottom: 0; 
   margin: auto; 
-  min-height: 66%;
-  max-height: 90%;
+  height: 50%;
 }
-
 
 /*
     controls
