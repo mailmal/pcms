@@ -23,7 +23,7 @@
 	       %}
 
 	       </ul>      
-	       <div class="current_category"><div class="menu_enty"><%=$category%></div><img src="/icons/icon_down.png"/></div>
+	       <div class="current_category"><div class="menu_enty"><%=$category%></div><img src="<%=$sub_page%>/icons/icon_down.png"/></div>
 	     </li>
 	    </ul>
 	  </div>
