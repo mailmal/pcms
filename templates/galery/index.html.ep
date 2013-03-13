@@ -27,9 +27,9 @@
 	     </li>
 	    </ul>
 	  </div>
-      <div class="ovw" ><a href="<%=$sub_page%>/overview.html"><img src="/icons/icon_thumbnails.png"/></a></div> 
-      <div class="fwd" ><a href="javascript:next_image()"><img src="/icons/icon_right.png"/></a></div>
-      <div class="bck" ><a href="javascript:next_image(true)"><img src="/icons/icon_left.png"/></a></div>
+      <div class="ovw" ><a href="<%=$sub_page%>/overview.html"><img src="<%=$sub_page%>/icons/icon_thumbnails.png"/></a></div> 
+      <div class="fwd" ><a href="javascript:next_image()"><img src="<%=$sub_page%>/icons/icon_right.png"/></a></div>
+      <div class="bck" ><a href="javascript:next_image(true)"><img src="<%=$sub_page%>/icons/icon_left.png"/></a></div>
 
       <div class="description">
 </div>

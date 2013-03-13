@@ -71,7 +71,7 @@ sub thumpnail {
   $thumpnail = $self->content_dir.'/'.$thumpnail;
   $image     = $self->content_dir.'/'.$image;
   return $return_thump if -f $thumpnail;
-  `convert -scale 100 $image $thumpnail`;
+  `convert -scale 100 '$image' '$thumpnail'`;
   return $return_thump;
 
 }
