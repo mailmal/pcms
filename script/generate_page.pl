@@ -10,7 +10,7 @@ my $galery = pcms::Galery->new({
 });
 
 my $base_dir = $FindBin::Bin.'/../generated/'.time;
-my $sub_page = $ARGV[0] || '';
+my $sub_page = $ARGV[0] || '.';
 
 $ENV{sub_page} = $sub_page;
 

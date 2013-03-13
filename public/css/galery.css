@@ -2,9 +2,10 @@ html, body {
    height:100%;
    min-height: 100%;
    margin:0px;
-   background-color:#000;
-   color:#ffffff;
-   font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+   background-color:#202020;
+   color:#848484;
+   font-family:"Dosis","Lucida Sans Unicode", "Lucida Grande", sans-serif;
+   font-weight:medium;
 }
 
 /*
@@ -34,6 +35,38 @@ html, body {
   height: 50%;
 }
 
+div#header {
+  position:fixed;
+  top:50px;
+  left:0px;
+  right:0px;
+  width:800px;
+  margin: 0px auto;
+}
+
+div#header div#logo {
+  position:absolute;
+  top:0px;
+  left:0px;
+}
+
+div#header div#information {
+  position:absolute;
+  top:0px;
+  right:0px;
+  background-color:#323232;
+  color:#fff
+}
+
+div#header *.slogan {
+  display:block;
+}
+
+*.huge_text {
+  font-size:1.5em;
+}
+
+
 /*
     controls
 */
@@ -48,24 +81,43 @@ html, body {
   margin: 0px auto;
   overflow:visible;
 
-  background-color:#000;
+  background-color:#202020;
+
+}
+
+a {
+  text-decoration:none;
+  display:block;
+  color:#848484;
+  outline:none
 }
 
 *.controls a {
   text-decoration:none;
   display:block;
   height:40px;
-  color:#fff;
+  color:#848484;
   outline:none
+}
+
+*.controls a img {
+  position:absolute;
+  top:0px;
+  bottom:0px;
+  left:0px;
+  right:0px;
+  width:20px;
+  height:20px;
+  margin:auto;
 }
 
 *.controls a:hover {
   text-decoration:none;
-  background-color:#110011;
+  background-color:#121212;
 }
 
 *.controls > div  {
-  border-right:solid 1px #fff;
+ border-right:solid 1px #848484;
 }
 
 *.fwd, *.bck, *.ovw {
@@ -118,7 +170,14 @@ html, body {
 *.link_list *.current_category {
   width:100%;
   height:40px;
-  border-right:solid 1px #fff;
+  border-right:solid 1px #848484;
+}
+
+*.link_list *.current_category img{
+  float:right;
+  margin:5px;
+  width:20px;
+  height:20px;
 }
 
 *.link_list > ul {
@@ -158,7 +217,7 @@ html, body {
 }
 
 *.link_list ul li ul li {
-  border-bottom:solid 1px #fff;
+  border-bottom:solid 1px #848484;
   height:40px;
 }
 
@@ -166,7 +225,7 @@ html, body {
 *.link_list a{
   width:100%;
   height:100%;
-  background-color:#000;
+  background-color:#202020;
 }
 
 *.link_list a div{
@@ -195,7 +254,7 @@ div.real_content {
   z-index:9999;
   min-width:100%;
   min-height:100%;
-  background-color:#000000
+  background-color:#202020;
 }
 
 .transparent {
@@ -208,10 +267,9 @@ div.real_content {
 
 .transparent_little {
   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  -moz-opacity:0.50;
-  -khtml-opacity: 0.50;
-  opacity: 0.50;
+  filter: alpha(opacity=80);
+  -moz-opacity:0.80;
+  -khtml-opacity: 0.80;
+  opacity: 0.80;
 }
-
 

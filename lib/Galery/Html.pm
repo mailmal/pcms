@@ -23,6 +23,9 @@ sub index {
      category => $current_cattegory,
      categories => [@categories],
      sub_page  => $sub_page,
+     company => $self->company,
+     industry => $self->industry,
+     slogan  => $self->slogan,
   )
 }
 
@@ -39,15 +42,42 @@ sub overview {
     template => 'galery/overview',
     items    => \%items,
     sub_page  => $sub_page,
+    company => $self->company,
+    industry => $self->industry,
+    slogan  => $self->slogan,
   );
 }
 
 sub galery {
   my( $self ) = @_;
   return pcms::Galery->new({
-     content_dir => File::Basename::dirname(__FILE__)."/../../public/galery" ,
+     content_dir =>  $self->basedir,
   });
 }
 
+sub basedir {
+  return File::Basename::dirname(__FILE__)."/../../public/galery" ,
+}
 
+sub company {
+  my( $self ) = @_;
+  return $self->slurp( 'company.txt');
+}
+
+sub slogan {
+  my( $self ) = @_;
+  return $self->slurp( 'slogan.txt');
+}
+
+sub industry {
+  my( $self ) = @_;
+  return $self->slurp( 'industry.txt');
+}
+
+sub slurp {
+  my( $self,$file ) = @_;
+  open my $fh, $self->basedir.'/'.$file or return'';
+  $fh->read( my $buffer, -s $fh);
+  return $buffer;
+}
 1;

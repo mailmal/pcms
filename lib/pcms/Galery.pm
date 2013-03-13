@@ -39,13 +39,14 @@ sub pictures {
 
   my $directory = $self->content_dir."/$category/";
   opendir(my $dh, $directory) || die "can't opendir $directory $!";
-  my @pictures = grep { not( /^\./ or -d $directory."/$_") } readdir($dh);
+  my @pictures = grep { not( /^\./ or -d $directory."/$_" or /thump\./) } readdir($dh);
   closedir $dh;
   my $type_regex = qr/\.(.+?)$/;
   @pictures = grep { my($type) = $_ =~ $type_regex; $types->{uc($type)}} @pictures;
 
   return map {{
     picture => $category.'/'.$_,
+    thumpnail => $self->thumpnail( $category.'/'.$_),
     description => $self->load_description($self->content_dir.'/'.$category.'/'.$_),
   }} sort {$a cmp $b} @pictures;
 }
@@ -60,6 +61,19 @@ sub load_description {
   open( my $fh , '<', $file ) or return '';
   $fh->read( my $buffer, -s $fh);
   return $buffer;
+}
+
+sub thumpnail {
+  my( $self, $image ) = @_;
+  my $thumpnail = $image;
+  $thumpnail =~ s/^(.+)(\.[^\.]+)/${1}_thump$2/;
+  my $return_thump = $thumpnail;
+  $thumpnail = $self->content_dir.'/'.$thumpnail;
+  $image     = $self->content_dir.'/'.$image;
+  return $return_thump if -f $thumpnail;
+  `convert -scale 100 $image $thumpnail`;
+  return $return_thump;
+
 }
   
  

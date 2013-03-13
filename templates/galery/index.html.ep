@@ -4,6 +4,7 @@
 <script type="text/javascript" src="<%=$sub_page%>/js/jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="<%=$sub_page%>/js/galery.js"></script>
 <link rel="stylesheet" type="text/css" href="<%=$sub_page%>/css/galery.css">
+<link href='http://fonts.googleapis.com/css?family=Dosis:500' rel='stylesheet' type='text/css'>
 
 
 <div class="visible_content">
@@ -22,13 +23,13 @@
 	       %}
 
 	       </ul>      
-	       <div class="current_category"><div class="menu_enty"><%=$category%></div></div>
+	       <div class="current_category"><div class="menu_enty"><%=$category%></div><img src="/icons/icon_down.png"/></div>
 	     </li>
 	    </ul>
 	  </div>
-      <div class="ovw" ><a href="<%=$sub_page%>/overview.html">OOO<br>OOO<br>OOO</a></div> 
-      <div class="fwd" ><a href="javascript:next_image()">&gt;</a></div>
-      <div class="bck" ><a href="javascript:next_image(true)">&lt;</a></div>
+      <div class="ovw" ><a href="<%=$sub_page%>/overview.html"><img src="/icons/icon_thumbnails.png"/></a></div> 
+      <div class="fwd" ><a href="javascript:next_image()"><img src="/icons/icon_right.png"/></a></div>
+      <div class="bck" ><a href="javascript:next_image(true)"><img src="/icons/icon_left.png"/></a></div>
 
       <div class="description">
 </div>
@@ -36,6 +37,17 @@
 </div>
 
 <div class="inner_div transparent">
+</div>
+
+<div id="header">
+  <div id="logo">
+    <span style="color:black" class="huge_text"><%=$company%></span>
+    <span class="huge_text"><%=$industry%></span>
+    <span class="slogan medium_text"><%=$slogan%></span>
+  </div>
+  <div id="information" class="transparent_little">
+     <a href="<%=$sub_page%>/kontakt.html">Informationen/Impressum</a>
+  </div>
 </div>
 
 
