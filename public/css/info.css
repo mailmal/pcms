@@ -1,0 +1,16 @@
+*.info_content {
+  margin:10px auto 20px auto;
+  width: 85%;
+  background-color:#000;
+}
+
+*.info_left {
+  float:left;
+  width:10%;
+  padding:20px;
+}
+
+*.info_right {
+  float:left;
+  width:auto;
+}

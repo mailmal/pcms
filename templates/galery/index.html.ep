@@ -46,7 +46,7 @@
     <span class="slogan medium_text"><%=$slogan%></span>
   </div>
   <div id="information" class="transparent_little">
-     <a href="<%=$sub_page%>/kontakt.html">Informationen/Impressum</a>
+     <a href="<%=$sub_page%>/contact.html">Informationen/Impressum</a>
   </div>
 </div>
 

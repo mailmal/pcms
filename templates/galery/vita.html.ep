@@ -1,0 +1,18 @@
+<div id="inner_ov" class="bordered">
+<script type="text/javascript" src="<%=$sub_page%>/js/overview.js"></script>
+<link rel="stylesheet" type="text/css" href="<%=$sub_page%>/css/overview.css">
+
+% for my $category ( sort { $a cmp $b } keys \%$items ){
+% my $index=-1;
+  <div class="item category"><span><%= $category %></span></div>
+% for my $picture( @{$items->{$category}}){
+  % my $picture_src = "$sub_page/galery/".$picture->{thumpnail};
+  % my $picture_dsc = $picture->{description};
+  % $index++;
+    <div class="item picture">
+      <a href="<%=$sub_page%>/<%= $category %>.html#<%= $index %>"><img src="<%=$picture_src%>"></a>
+    </div>
+ %}
+%}
+<div style="clear:both"></div>
+</div>
