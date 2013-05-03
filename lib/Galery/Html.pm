@@ -48,6 +48,45 @@ sub overview {
   );
 }
 
+sub contact {
+  my( $self ) = @_;
+  
+  my $sub_page = $ENV{sub_page} || '';
+  return $self->render(
+    template => 'galery/contact',
+    sub_page  => $sub_page,
+    company => $self->company,
+    industry => $self->industry,
+    slogan  => $self->slogan,
+  );
+}
+
+sub vita {
+  my( $self ) = @_;
+  
+  my $sub_page = $ENV{sub_page} || '';
+  return $self->render(
+    template => 'galery/contact',
+    sub_page  => $sub_page,
+    company => $self->company,
+    industry => $self->industry,
+    slogan  => $self->slogan,
+  );
+}
+
+sub impressum {
+  my( $self ) = @_;
+  
+  my $sub_page = $ENV{sub_page} || '';
+  return $self->render(
+    template => 'galery/contact',
+    sub_page  => $sub_page,
+    company => $self->company,
+    industry => $self->industry,
+    slogan  => $self->slogan,
+  );
+}
+
 sub galery {
   my( $self ) = @_;
   return pcms::Galery->new({

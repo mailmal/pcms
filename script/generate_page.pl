@@ -25,6 +25,10 @@ for my $category ( $galery->categories ){
 save_page("/index.html");
 save_page("/overview.html");
 
+save_page("/contact.html");
+save_page("/vita.html");
+save_page("/impressum.html");
+
 sub save_page {
   my( $route ) = @_;
   my $page = `perl $FindBin::Bin/pcms get $route`;

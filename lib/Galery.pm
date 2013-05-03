@@ -16,6 +16,12 @@ sub startup {
   $r->get('/')->to( controller => 'html', action => 'index');
   $r->get('/index.html')->to('html#index');
   $r->get('/overview.html')->to('html#overview');
+
+
+  $r->get('/contact.html')->to('html#contact');
+  $r->get('/vita.html')->to('html#vita');
+  $r->get('/impressum.html')->to('html#impressum');
+
   for my $category ( $self->galery->categories ){
     $r->get("/$category.html")->to( controller => 'html', action => 'index', category => $category);
   }
