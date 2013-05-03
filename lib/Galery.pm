@@ -21,6 +21,7 @@ sub startup {
   $r->get('/contact.html')->to('html#contact');
   $r->get('/vita.html')->to('html#vita');
   $r->get('/impressum.html')->to('html#impressum');
+  $r->get('/referenzen.html')->to('html#referenzen');
 
   for my $category ( $self->galery->categories ){
     $r->get("/$category.html")->to( controller => 'html', action => 'index', category => $category);
