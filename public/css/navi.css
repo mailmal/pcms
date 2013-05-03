@@ -20,3 +20,43 @@ div.navi {
   float:left;
   margin: 10px;
 }
+
+
+
+div#header {
+  position:fixed;
+  top:50px;
+  left:0px;
+  right:0px;
+  width:800px;
+  margin: 0px auto;
+}
+
+div#header div#logo {
+  position:absolute;
+  top:0px;
+  left:0px;
+}
+
+div#header div#information {
+  position:absolute;
+  top:0px;
+  right:0px;
+  background-color:#323232;
+  color:#fff
+}
+
+div#header *.slogan {
+  display:block;
+}
+
+*.huge_text {
+  font-size:1.5em;
+}
+
+a {
+  text-decoration:none;
+  display:block;
+  color:#848484;
+  outline:none
+}

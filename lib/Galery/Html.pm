@@ -66,7 +66,7 @@ sub vita {
   
   my $sub_page = $ENV{sub_page} || '';
   return $self->render(
-    template => 'galery/contact',
+    template => 'galery/vita',
     sub_page  => $sub_page,
     company => $self->company,
     industry => $self->industry,
@@ -79,7 +79,20 @@ sub impressum {
   
   my $sub_page = $ENV{sub_page} || '';
   return $self->render(
-    template => 'galery/contact',
+    template => 'galery/impressum',
+    sub_page  => $sub_page,
+    company => $self->company,
+    industry => $self->industry,
+    slogan  => $self->slogan,
+  );
+}
+
+sub referenzen {
+  my( $self ) = @_;
+  
+  my $sub_page = $ENV{sub_page} || '';
+  return $self->render(
+    template => 'galery/referenzen',
     sub_page  => $sub_page,
     company => $self->company,
     industry => $self->industry,

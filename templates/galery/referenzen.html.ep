@@ -1,0 +1,83 @@
+
+<script type="text/javascript" src="<%=$sub_page%>/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="<%=$sub_page%>/js/galery.js"></script>
+<link rel="stylesheet" type="text/css" href="<%=$sub_page%>/css/galery.css">
+<link href='http://fonts.googleapis.com/css?family=Dosis:500' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="<%=$sub_page%>/css/info.css">
+<link rel="stylesheet" type="text/css" href="<%=$sub_page%>/css/contact.css">
+%= include 'galery/navi'
+
+<div class="info_content">
+  <div class="info_left">
+   Referenzen
+  </div>
+  <div class="info_right">
+  <br>3sat Mainz
+  <br>Allianz Deutschland AG
+  <br>Alusystheme - Metallbau Bellmann GmbH
+  <br>Artis Hotels
+  <br>AUDI AG
+  <br>Aurelis Real Estate GmbH &amp; Co. KG.
+  <br>Automobilmanufaktur Dresden GmbH
+  <br>Bambi Medien und Fernsehpreis
+  <br>Baumer Holding AG 
+  <br>Bavaria Film GmbH
+  <br>Bayerischer Rundfunk
+  <br>Bayerisches Kultusministerium
+  <br>Bayerisches Staatsschauspiel
+  <br>Bayreuther Festspiele
+  <br>B. Braun Melsungen AG
+  <br>Bertron Schwarz Frey GmbH
+  <br>Besucherzentrum Welterbe der Stadt Regensburg
+  <br>Bilfinger Europa AG
+  <br>Cuvillies-Theater München
+  <br>ERGO Versicherungsgruppe
+  <br>Fischer und Partner Lichtdesign, Planung, Realisierung
+  <br>Forsythe Company
+  <br>G.S. Stolpen GmbH
+  <br>Galerie Gebrüder Lehmann
+  <br>Gedenkstätte Flossenbürg
+  <br>Gedenkstätte Münchner Platz Dresden
+  <br>Gerhard D. Wempe AG
+  <br>Gerodur MPM GmbH und Co. KG
+  <br>Getsix Group
+  <br>Global Foundries Inc.
+  <br>Gruner + Jahr AG &amp; Co KG Druck- und Verlagshaus
+  <br>Herbstwest Werbung
+  <br>Heliatek GmbH
+  <br>Hellerau - Europäisches Zentrum der Künste
+  <br>Heyday`s OHG
+  <br>Hochschule für Bildende Künste Dresden 
+  <br>Hubert Burda Media Holding
+  <br>Kinderfilm GmbH Erfurt
+  <br>J. Eberspächer GmbH &amp; Co. KG 
+  <br>Kamera &amp; Systhem Technik GmbH
+  <br>Klebl GmbH 
+  <br>Kulturstiftung Sachsen Anhalt
+  <br>Landesmuseum Stuttgart
+  <br>Lange Uhren GmbH
+  <br>MDR
+  <br>NDR Hamburg
+  <br>Otto Jakob Schmuckkünstler
+  <br>SAB Sächsische Aufbaubank
+  <br>Sächsische Zeitung
+  <br>Sächsisches Staatsministerium für Soziales und Verbraucherschutz 
+  <br>Sächsisches Staatsministerium für Wirtschaft und Arbeit
+  <br>Soehner Group
+  <br>Staatliche Kunstsammlungen Dresden
+  <br>Stadtentwässerung Dresden GmbH
+  <br>Stadtmuseum Dresden
+  <br>Stiftung Bayerische Gedenkstätten
+  <br>Süddeutsche Zeitung
+  <br>Theater im Haus der Kunst München
+  <br>Tourismusverband Sächsische Schweiz
+  <br>VOR Werbeagentur GmbH
+  <br>Volkswagen AG
+  <br>WDR 
+  <br>Xerox Corporation
+  <br>Zebra Werbeagentur GmbH
+  <br>Zeitgeschichtliches Forum Leipzig
+  <br>Zwiesel Kristallglas AG
+  </div>
+  <div style="clear:both"/>
+</div>

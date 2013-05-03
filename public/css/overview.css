@@ -12,8 +12,10 @@
 *.item span{
   width:140px;
   display:block;
+  margin:20px 0px 0px 10px;
   vertical-align:middle;
   float:left;
+  font-size:1.5em;
 }
 img { border: 0px }
 
@@ -36,3 +38,4 @@ img { border: 0px }
   border-color: #eeddee;
   padding:10px;
 }
+

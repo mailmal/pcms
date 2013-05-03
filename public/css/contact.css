@@ -1,4 +1,23 @@
 
 *.info_right ul {
   list-style: none;
+  padding:0px;
+  margin:10px 0px 0px 0px;
+
+}
+
+*.info_right ul li span{
+  display:block;
+  float:left;
+  margin:10px;
+  width:200px;
+
+  clear:both;
+}
+
+*.info_right ul li p{
+  display:block;
+  float:left;
+  margin:10px;
+  width:400px;
 }

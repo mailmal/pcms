@@ -14,6 +14,7 @@ jQuery(function(){
     jQuery('.link_list > ul').mouseleave(function(){
       jQuery(this).removeClass("hover");
       });
+    /*
     jQuery('*.ovw a').unbind('click');
     jQuery('*.ovw a').click(
       function(e){
@@ -22,6 +23,22 @@ jQuery(function(){
 	 return;
       }  
     );
+    */
+    $(document).keydown(function(e){
+      if (e.keyCode == 37) { 
+	//left
+	next_image(1);
+      }else if(e.keyCode == 38) { 
+	//up
+        document.location.href = jQuery('a.pre_cat').attr('href');
+      }else if(e.keyCode == 39) { 
+	//right
+	next_image(0);
+      }else if(e.keyCode == 40) { 
+	//down
+        document.location.href = jQuery('a.post_cat').attr('href');
+      }
+    });
     jQuery(window).resize(optimize_img);
   
 });
@@ -140,15 +157,8 @@ function switch_category(name){
       current_cattegory = cat_array.length -1;
    }
    var current_cat_name = cat_array[current_cattegory];
-   if(name){
-     current_cat_name = name;
-     current_cattegory = cat_array.indexOf(name);
-   }else{
-     current_picture = -1;
-     next_image();
-   }
-   jQuery('.cat_link').html( current_cat_name );
-
+   console.log(current_cattegory);
+   console.log(cat_array);
 }
 
 

@@ -1,18 +1,47 @@
-<div id="inner_ov" class="bordered">
-<script type="text/javascript" src="<%=$sub_page%>/js/overview.js"></script>
-<link rel="stylesheet" type="text/css" href="<%=$sub_page%>/css/overview.css">
 
-% for my $category ( sort { $a cmp $b } keys \%$items ){
-% my $index=-1;
-  <div class="item category"><span><%= $category %></span></div>
-% for my $picture( @{$items->{$category}}){
-  % my $picture_src = "$sub_page/galery/".$picture->{thumpnail};
-  % my $picture_dsc = $picture->{description};
-  % $index++;
-    <div class="item picture">
-      <a href="<%=$sub_page%>/<%= $category %>.html#<%= $index %>"><img src="<%=$picture_src%>"></a>
-    </div>
- %}
-%}
-<div style="clear:both"></div>
+<script type="text/javascript" src="<%=$sub_page%>/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="<%=$sub_page%>/js/galery.js"></script>
+<link rel="stylesheet" type="text/css" href="<%=$sub_page%>/css/galery.css">
+<link href='http://fonts.googleapis.com/css?family=Dosis:500' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="<%=$sub_page%>/css/info.css">
+<link rel="stylesheet" type="text/css" href="<%=$sub_page%>/css/contact.css">
+%= include 'galery/navi'
+
+<div class="info_content">
+  <div class="info_left">
+   Impressum
+  </div>
+  <div class="info_right">
+    <ul>
+      <li>
+	<span>Anschrift</span>
+	<p> Großenhainer Str. 101<br>
+	01127 Dresden</p>
+      </li>
+      <li>
+	<span>vertreten durch Frank Baldauf und Udo Baldauf</span>
+	<p>
+	  Tel: +49 (0)351 / 500 83 06<br>
+	  Fax: +49 (0)351 / 500 83 06<br>
+	  E-Mail: info@fotobaldauf.de<br>
+	  Web: www.fotobaldauf.de<br>
+	</p>
+      </li>
+      <li>
+	<span>Steuernummer</span>
+        <p>201/203/07941</p>
+      </li>
+      <li>
+	<span>Urheberrecht</span>
+        <p>Alle Inhalte auf dieser Seite sind gesetzlich geschützt im Sinne des Urheberrechts.</p>
+      </li>
+      <li>
+	<span>Haftung</span>
+	<p>Trotz sorgfältiger inhaltlicher Kontrolle übernimmt Baldauf & Baldauf
+	   keine Haftung für die Inhalte externer Links. Für den Inhalt der Seiten
+	   sind ausschließlich die Betreiber verantwortlich.
+        </p>
+      </li>
+  </div>
+  <div style="clear:both"/>
 </div>

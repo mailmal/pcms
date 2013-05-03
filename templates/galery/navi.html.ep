@@ -1,20 +1,22 @@
-<link rel="stylesheet" type="text/css" href="<%=$sub_page%>/css/galery.css">
 <link href='http://fonts.googleapis.com/css?family=Dosis:500' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="<%=$sub_page%>/css/galery.css">
 <link rel="stylesheet" type="text/css" href="<%=$sub_page%>/css/navi.css">
 
 <div class="navi" >
-  <div>
-    <span style="color:black" class="huge_text"><%=$company%></span>
-    <span class="huge_text"><%=$industry%></span><br>
-    <span class="slogan medium_text"><%=$slogan%></span>
-  </div>
+  <a href="<%=$sub_page%>/index.html">
+    <div>
+      <span style="color:black" class="huge_text"><%=$company%></span>
+      <span class="huge_text"><%=$industry%></span><br>
+      <span class="slogan medium_text"><%=$slogan%></span>
+    </div>
+  </a>
   <br><br>
   <ul>
     <li><a href="<%=$sub_page%>/overview.html">PORTFOLIO</a></li>
-    <li><a href="<%=$sub_page%>/contact.html">KONTANKT</a></li>
+    <li><a href="<%=$sub_page%>/contact.html">KONTAKT</a></li>
     <li><a href="<%=$sub_page%>/vita.html">VITA</a></li>
     <li><a href="<%=$sub_page%>/referenzen.html">REFERENZEN</a></li>
-    <li><a href="<%=$sub_page%>/imprint.pdf">IMPRINT</a></li>
+    <li><a href="<%=$sub_page%>/impressum.html">IMPRESSUM</a></li>
+    <li><a href="<%=$sub_page%>/Baldauf&Baldauf_Kontakt.pdf">IMPRINT</a></li>
+    <li style="clear:both"/>
   </ul>
 </div>

@@ -52,6 +52,24 @@
 
 
 <div class="real_content" style="display:none">
+  <div class="cat_nav"> 
+%my( $pre, $post ) = ($categories->[-1],$categories->[1]);
+%my $first   = $categories->[0];
+%my @copycat = @$categories;
+%while(my $current = shift @copycat ){
+%  if( $current eq $category ){
+%    if( $current eq $copycat[-1] ){
+%      $post = $first;
+%    }
+%    last;
+%  }
+%  $pre = $current;
+%  $post = @copycat[1] || $copycat[0];
+%}
+  <a class="pre_cat" href="<%=$sub_page%>/<%=$pre%>.html"></a>
+  <a class="post_cat" href="<%=$sub_page%>/<%=$post%>.html"></a>
+
+  </div>   
   <div class="category">
     <span class="category_name"><%=$category %></span>
     % for my $picture ( sort { $a->{picture} cmp $b->{picture} } @$pictures ) {
