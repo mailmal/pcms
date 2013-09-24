@@ -28,6 +28,7 @@ save_page("/overview.html");
 save_page("/contact.html");
 save_page("/vita.html");
 save_page("/impressum.html");
+save_page("/referenzen.html");
 
 sub save_page {
   my( $route ) = @_;
