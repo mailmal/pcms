@@ -4,8 +4,9 @@ html, body {
    margin:0px;
    background-color:#202020;
    color:#848484;
-   font-family:"Dosis","Lucida Sans Unicode", "Lucida Grande", sans-serif;
+   font-family:"Dosis medium","Lucida Sans Unicode", "Lucida Grande", sans-serif;
    font-weight:medium;
+   font-size:12pt;
 }
 
 /*
@@ -80,7 +81,7 @@ div#header *.slogan {
   bottom: 20px;
   left:0px;
   right:0px;
-  width:800px;
+  width:1004px;
   height:40px;
   margin: 0px auto;
   overflow:visible;
@@ -151,7 +152,7 @@ a {
   position: absolute;
   bottom: 0px;
   left:326px;
-  width:470px;
+  width:674px;
   height:40px;
   margin:0px;
   padding: 0px 0px 0px 5px;
