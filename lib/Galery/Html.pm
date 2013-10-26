@@ -75,7 +75,7 @@ sub vita {
     industry => $self->industry,
     slogan  => $self->slogan,
     current_page => { vita => 'selected'},
-    imported_text    => $self->slurp('../info/vita.txt' ),
+    imported_text    => [ split /\n/, $self->slurp('../info/vita.txt' )],
   );
 }
 

@@ -19,7 +19,10 @@
   <img src="frank.jpg">
   <img src="udo.jpg">
   </div>
-  <%=$imported_text%>
+
+  %for my $line( @$imported_text ){
+    <%=$line%><br>
+  %}
   </div>
   <div style="clear:both"/>
 </div>
