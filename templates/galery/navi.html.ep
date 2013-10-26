@@ -11,12 +11,12 @@
   </a>
   <br><br>
   <ul>
-    <li><a href="<%=$sub_page%>/overview.html">PORTFOLIO</a></li>
-    <li><a href="<%=$sub_page%>/contact.html">KONTAKT</a></li>
-    <li><a href="<%=$sub_page%>/vita.html">VITA</a></li>
-    <li><a href="<%=$sub_page%>/referenzen.html">REFERENZEN</a></li>
-    <li><a href="<%=$sub_page%>/impressum.html">IMPRESSUM</a></li>
-    <li><a href="<%=$sub_page%>/Baldauf&Baldauf_Kontakt.pdf">IMPRINT</a></li>
+    <li class="<%=$current_page->{overview}%>"><a href="<%=$sub_page%>/overview.html">PORTFOLIO</a></li>
+    <li class="<%=$current_page->{contact}%>"><a href="<%=$sub_page%>/contact.html">CONTACT</a></li>
+    <li class="<%=$current_page->{vita}%>"><a href="<%=$sub_page%>/vita.html">VITA</a></li>
+    <li class="<%=$current_page->{referenzen}%>"><a href="<%=$sub_page%>/referenzen.html">REFERENZEN</a></li>
+    <li class="<%=$current_page->{peter}%>"><a href="<%=$sub_page%>/Baldauf&Baldauf_Kontakt.pdf">IMPRINT</a></li>
     <li style="clear:both"/>
   </ul>
 </div>
+<div style="clear:both"></div>

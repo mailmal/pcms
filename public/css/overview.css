@@ -1,34 +1,33 @@
 
 *.item {
-  height:100px;
+  height:98px;
+  width:196px;
   display:block;
   float:left;
-  margin:5px;
-  border-width:1px;
-  border-style:groove;
-  border-color:#eeddee;     
+  margin:2px;
+  border-width:0px;
 }
 
 *.item span{
-  width:140px;
+  height:98px;
+  width:196px;
   display:block;
-  margin:20px 0px 0px 10px;
-  vertical-align:middle;
+  margin:20px 0px 0px 6px;
   float:left;
-  font-size:1.5em;
+  font-size:16pt;
 }
 img { border: 0px }
 
 *.item img {
-  border:0px;
-  height:100px;
+  height:98px;
+  width:196px;
   border-style:none;
   display:block;
 }
 
 #inner_ov {
-  width:85%;
-  margin:50px auto;
+  width:1004px;
+  margin:30px auto;
   background-color:#000;
 }
 

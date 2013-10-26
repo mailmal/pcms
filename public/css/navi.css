@@ -1,24 +1,27 @@
 
 div.navi {
   margin:50px auto 20px auto;
-  width: 85%;
+  width: 1004px;
 }
 
 *.navi ul {
   list-style: none;
   margin:0px;
-  padding:0px;
+  padding:0px 0px 0px 0px;
   width:100%;
-  background-color:#000;
   display:block;
-  height:45;
+  background-color:#000;
+  height:40;
+  font-size: 16pt;
 }
 
 *.navi ul li{
   list-style: none;
   display:block;
   float:left;
-  margin: 10px;
+  margin: 10px 0px 10px 10px;
+  padding:0px 0px 0px 0px;
+  width: 186px;
 }
 
 
@@ -46,17 +49,21 @@ div#header div#information {
   color:#fff
 }
 
-div#header *.slogan {
-  display:block;
-}
-
-*.huge_text {
-  font-size:1.5em;
-}
-
 a {
   text-decoration:none;
   display:block;
   color:#848484;
   outline:none
+}
+
+*.huge_text {
+  font-size:16pt;
+}
+
+*.slogan {
+  font-size:9pt;
+}
+
+li.selected a{
+  text-decoration:underline;
 }

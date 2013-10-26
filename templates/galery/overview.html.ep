@@ -1,4 +1,6 @@
 
+<script type="text/javascript" src="<%=$sub_page%>/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="<%=$sub_page%>/js/galery.js"></script>
 <script type="text/javascript" src="<%=$sub_page%>/js/overview.js"></script>
 <link rel="stylesheet" type="text/css" href="<%=$sub_page%>/css/overview.css">
 <link rel="stylesheet" type="text/css" href="<%=$sub_page%>/css/info.css">
@@ -6,7 +8,7 @@
 %= include 'galery/navi'
 
 <div class="info_content">
-  <div style="margin:10px">
+  <div>
     % for my $category ( sort { $a cmp $b } keys \%$items ){
     % my $index=-1;
       <div class="item category"><span><%= $category %></span></div>

@@ -45,6 +45,7 @@ sub overview {
     company => $self->company,
     industry => $self->industry,
     slogan  => $self->slogan,
+    current_page => { overview => 'selected'},
   );
 }
 
@@ -58,6 +59,7 @@ sub contact {
     company => $self->company,
     industry => $self->industry,
     slogan  => $self->slogan,
+    current_page => { contact => 'selected'},
   );
 }
 
@@ -71,6 +73,7 @@ sub vita {
     company => $self->company,
     industry => $self->industry,
     slogan  => $self->slogan,
+    current_page => { vita => 'selected'},
   );
 }
 
@@ -84,6 +87,7 @@ sub impressum {
     company => $self->company,
     industry => $self->industry,
     slogan  => $self->slogan,
+    current_page => { impressum => 'selected'},
   );
 }
 
@@ -97,6 +101,7 @@ sub referenzen {
     company => $self->company,
     industry => $self->industry,
     slogan  => $self->slogan,
+    current_page => { referenzen => 'selected'},
   );
 }
 
