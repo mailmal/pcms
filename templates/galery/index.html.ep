@@ -5,6 +5,8 @@
 % layout 'default';
 % title 'Galery';
 
+%my $cat_name = $category;
+%$cat_name = join " ", split( /_/, $cat_name ); 	       
 <script type="text/javascript" src="<%=$sub_page%>/js/jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="<%=$sub_page%>/js/galery.js"></script>
 <link rel="stylesheet" type="text/css" href="<%=$sub_page%>/css/galery.css">
@@ -21,13 +23,15 @@
 	       <ul>
 
 	       %for my $category( grep{$_ ne $category }@$categories ){
+	       %my $cat_name = $category;
+	       %$cat_name = join " ", split( /_/, $cat_name ); 	       
 		 <li>
-		   <a href="<%=$sub_page%>/<%=$category%>.html"><div class="menu_entry"><%=$category%></div></a>
+		   <a href="<%=$sub_page%>/<%=$category%>.html"><div class="menu_entry"><%=$cat_name%></div></a>
 	         </li>
 	       %}
 
 	       </ul>      
-	       <div class="current_category"><div class="menu_enty"><%=$category%></div><img src="<%=$sub_page%>/icons/icon_down.png"/></div>
+	       <div class="current_category"><div class="menu_enty"><%=$cat_name%></div><img src="<%=$sub_page%>/icons/icon_down.png"/></div>
 	     </li>
 	    </ul>
 	  </div>

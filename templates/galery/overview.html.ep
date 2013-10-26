@@ -14,7 +14,9 @@
   <div>
     % for my $category ( sort { $a cmp $b } keys \%$items ){
     % my $index=-1;
-      <div class="item category"><span><%= $category %></span></div>
+    %my $cat_name = $category;
+    %$cat_name = join " ", split( /_/, $cat_name ); 	       
+      <div class="item category"><span><%= $cat_name %></span></div>
     % for my $picture( @{$items->{$category}}){
       % my $picture_src = "$sub_page/galery/".$picture->{thumpnail};
       % my $picture_dsc = $picture->{description};

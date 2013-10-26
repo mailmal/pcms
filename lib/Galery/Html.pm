@@ -60,7 +60,7 @@ sub contact {
     industry => $self->industry,
     slogan  => $self->slogan,
     current_page => { contact => 'selected'},
-    imported_text    => $self->slurp('../info/contact.txt' ),
+    imported_text    => [split /\n/, $self->slurp('../info/contact.txt' )],
   );
 }
 
@@ -90,7 +90,7 @@ sub impressum {
     industry => $self->industry,
     slogan  => $self->slogan,
     current_page => { impressum => 'selected'},
-    imported_text    => $self->slurp('../info/impressum.txt' ),
+    imported_text    => [ split /\n/, $self->slurp('../info/impressum.txt' )],
   );
 }
 
@@ -105,7 +105,7 @@ sub referenzen {
     industry => $self->industry,
     slogan  => $self->slogan,
     current_page => { referenzen => 'selected'},
-    imported_text    => $self->slurp('../info/referenzen.txt' ),
+    imported_text    => [split /\n/, $self->slurp('../info/referenzen.txt' )],
   );
 }
 

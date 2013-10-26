@@ -15,18 +15,9 @@
    Kontakt
   </div>
   <div class="info_right">
-    <ul>
-      <li>Baldauf & Baldauf Fotografie</li>
-      <li>für Ausstellungen Architektur Produkte Reportage Werbung Industrie</li>
-      <li>Großenhainer Str. 101</li>
-      <li>01127 Dresden<br><br></li>
-      <li></li>
-      <li>Telefon: +49 (0) 351 500 83 06</li>
-      <li>Frank Baldauf : +49 (0) 174 83 03 474</li>
-      <li>Udo Baldauf : +49 (0) 179 67 82 440</li>
-      <li>E-Mail: info@fotobaldauf.de</li>
-      <li>Web: www.fotobaldauf.de </li>
-    </ul>
+    %for my $line( @$imported_text ){
+      <%=$line%><br>
+    %}
   </div>
   <div style="clear:both"/>
 </div>
