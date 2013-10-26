@@ -1,0 +1,85 @@
+% layout 'default';
+% title 'Galery';
+
+<script type="text/javascript" src="<%=$sub_page%>/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="<%=$sub_page%>/js/galery.js"></script>
+<link rel="stylesheet" type="text/css" href="<%=$sub_page%>/css/galery.css">
+<link href='http://fonts.googleapis.com/css?family=Dosis:500' rel='stylesheet' type='text/css'>
+
+
+<div class="visible_content">
+  <div class="picture_slide">
+  </div>
+  <div class="controls transparent_little">
+	  <div class="link_list">
+	    <ul>
+	     <li>
+	       <ul>
+
+	       %for my $category( grep{$_ ne $category }@$categories ){
+		 <li>
+		   <a href="<%=$sub_page%>/<%=$category%>.html"><div class="menu_entry"><%=$category%></div></a>
+	         </li>
+	       %}
+
+	       </ul>      
+	       <div class="current_category"><div class="menu_enty"><%=$category%></div><img src="<%=$sub_page%>/icons/icon_down.png"/></div>
+	     </li>
+	    </ul>
+	  </div>
+      <div class="ovw" ><a href="<%=$sub_page%>/overview.html"><img src="<%=$sub_page%>/icons/icon_thumbnails.png"/></a></div> 
+      <div class="fwd" ><a href="javascript:next_image()"><img src="<%=$sub_page%>/icons/icon_right.png"/></a></div>
+      <div class="bck" ><a href="javascript:next_image(true)"><img src="<%=$sub_page%>/icons/icon_left.png"/></a></div>
+
+      <div class="description">
+</div>
+  </div>
+</div>
+
+<div class="inner_div transparent">
+</div>
+
+<div id="header">
+  <div id="logo">
+    <span style="color:black" class="huge_text"><%=$company%></span>
+    <span class="huge_text"><%=$industry%></span>
+    <span class="slogan medium_text"><%=$slogan%></span>
+  </div>
+  <div id="information" class="transparent_little">
+     <a href="<%=$sub_page%>/contact.html">Informationen/Impressum</a>
+  </div>
+</div>
+
+
+<div class="real_content" style="display:none">
+  <div class="cat_nav"> 
+%my( $pre, $post ) = ($categories->[-1],$categories->[1]);
+%my $first   = $categories->[0];
+%my @copycat = @$categories;
+%while(my $current = shift @copycat ){
+%  if( $current eq $category ){
+%    if( $current eq $copycat[-1] ){
+%      $post = $first;
+%    }
+%    last;
+%  }
+%  $pre = $current;
+%  $post = @copycat[1] || $copycat[0];
+%}
+  <a class="pre_cat" href="<%=$sub_page%>/<%=$pre%>.html"></a>
+  <a class="post_cat" href="<%=$sub_page%>/<%=$post%>.html"></a>
+
+  </div>   
+  <div class="category">
+    <span class="category_name"><%=$category %></span>
+    % for my $picture ( sort { $a->{picture} cmp $b->{picture} } @$pictures ) {
+    %   my $picture_src = "$sub_page/galery/".$picture->{picture};
+    %   my $picture_dsc = $picture->{description};
+      <div class="real_content_picture">
+	<img src="<%=  $picture_src %>">
+	<span><%=$picture_dsc %></span>
+      </div>
+    %}
+  </div>
+
+</div>

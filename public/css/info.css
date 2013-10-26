@@ -1,0 +1,27 @@
+html, body {
+   height:100%;
+   min-height: 100%;
+   margin:0px;
+   background-color:#ebebeb;
+   color:#848484;
+   font-family:"Dosis","Lucida Sans Unicode", "Lucida Grande", sans-serif;
+   font-weight:medium;
+}
+
+*.info_content {
+  margin:10px auto 20px auto;
+  width: 85%;
+  background-color:#000;
+}
+
+*.info_left {
+  float:left;
+  width:10%;
+  padding:20px;
+  height:100%;
+}
+
+*.info_right {
+  float:left;
+  width:79%;
+}

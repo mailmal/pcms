@@ -1,0 +1,41 @@
+
+*.item {
+  height:100px;
+  display:block;
+  float:left;
+  margin:5px;
+  border-width:1px;
+  border-style:groove;
+  border-color:#eeddee;     
+}
+
+*.item span{
+  width:140px;
+  display:block;
+  margin:20px 0px 0px 10px;
+  vertical-align:middle;
+  float:left;
+  font-size:1.5em;
+}
+img { border: 0px }
+
+*.item img {
+  border:0px;
+  height:100px;
+  border-style:none;
+  display:block;
+}
+
+#inner_ov {
+  width:85%;
+  margin:50px auto;
+  background-color:#000;
+}
+
+*.bordered {
+  border-style: groove;
+  border-width: 2px 5px 5px 2px;
+  border-color: #eeddee;
+  padding:10px;
+}
+

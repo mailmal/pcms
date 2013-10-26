@@ -1,0 +1,275 @@
+html, body {
+   height:100%;
+   min-height: 100%;
+   margin:0px;
+   background-color:#202020;
+   color:#848484;
+   font-family:"Dosis","Lucida Sans Unicode", "Lucida Grande", sans-serif;
+   font-weight:medium;
+}
+
+/*
+    theslide
+*/
+*.visible_content {
+   width: 100%;
+   height:100%;
+}
+
+.picture_slide {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+  overflow:hidden;
+}
+
+.picture_slide img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  height: 50%;
+}
+
+div#header {
+  position:fixed;
+  top:50px;
+  left:0px;
+  right:0px;
+  width:800px;
+  margin: 0px auto;
+}
+
+div#header div#logo {
+  position:absolute;
+  top:0px;
+  left:0px;
+}
+
+div#header div#information {
+  position:absolute;
+  top:0px;
+  right:0px;
+  background-color:#323232;
+  color:#fff
+}
+
+div#header *.slogan {
+  display:block;
+}
+
+*.huge_text {
+  font-size:1.5em;
+}
+
+
+/*
+    controls
+*/
+
+*.controls {
+  position: fixed;
+  bottom: 20px;
+  left:0px;
+  right:0px;
+  width:800px;
+  height:40px;
+  margin: 0px auto;
+  overflow:visible;
+
+  background-color:#202020;
+
+}
+
+a {
+  text-decoration:none;
+  display:block;
+  color:#848484;
+  outline:none
+}
+
+*.controls a {
+  text-decoration:none;
+  display:block;
+  height:40px;
+  color:#848484;
+  outline:none
+}
+
+*.controls a img {
+  position:absolute;
+  top:0px;
+  bottom:0px;
+  left:0px;
+  right:0px;
+  width:20px;
+  height:20px;
+  margin:auto;
+}
+
+*.controls a:hover {
+  text-decoration:none;
+  background-color:#121212;
+}
+
+*.controls > div  {
+ border-right:solid 1px #848484;
+}
+
+*.fwd, *.bck, *.ovw {
+  width: 40px;
+  height:40px;
+  font-weight:900;
+  margin: 0px 5px;
+  position:absolute;
+}
+
+*.controls *.fwd {
+  font-size:1.3em;
+  left:240px;
+}
+
+*.controls > *.bck {
+  font-size:1.3em;
+  left:200px;
+}
+
+*.controls > *.ovw {
+  left:280px;
+  font-size:0.7em;
+}
+
+*.description {
+  position: absolute;
+  bottom: 0px;
+  left:326px;
+  width:470px;
+  height:40px;
+  margin:0px;
+  padding: 0px 0px 0px 5px;
+}
+
+
+/*
+
+   Menue
+
+*/
+
+*.link_list {
+  width:204px;
+  position:absolute;
+  left:0px;
+  margin:0px;
+}
+
+*.link_list *.current_category {
+  width:100%;
+  height:40px;
+  border-right:solid 1px #848484;
+}
+
+*.link_list *.current_category img{
+  float:right;
+  margin:5px;
+  width:20px;
+  height:20px;
+}
+
+*.link_list > ul {
+  list-style: none;
+  margin:0px;
+  padding:0px;
+  width:100%;
+  bottom:-40px;
+  position:absolute;
+}
+
+*.link_list ul li{
+  margin:0px;
+  padding:0px;
+  width:100%;
+}
+
+*.link_list ul li ul{
+  display:none;
+  list-style: none;
+  margin:0px;
+  padding:0px;
+  bottom:0px;
+}
+
+*.link_list ul li div div{
+  position:absolute;
+}
+
+
+*.link_list ul:hover li ul{
+  display: block;
+}
+
+*.link_list ul.hover li ul{
+  display: block;
+}
+
+*.link_list ul li ul li {
+  border-bottom:solid 1px #848484;
+  height:40px;
+}
+
+
+*.link_list a{
+  width:100%;
+  height:100%;
+  background-color:#202020;
+}
+
+*.link_list a div{
+  height:40px;
+  padding:5px;
+}
+
+div.menu_enty {
+  margin:5px;
+};
+
+/* 
+   other content 
+*/
+
+
+div.real_content {
+  display:none;
+}
+
+*.inner_div {
+  display:none;
+  position:absolute;
+  top:0px;
+  left:0px;
+  z-index:9999;
+  min-width:100%;
+  min-height:100%;
+  background-color:#202020;
+}
+
+.transparent {
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+  filter: alpha(opacity=85);
+  -moz-opacity:0.85;
+  -khtml-opacity: 0.85;
+  opacity: 0.85;
+}
+
+.transparent_little {
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=80);
+  -moz-opacity:0.80;
+  -khtml-opacity: 0.80;
+  opacity: 0.80;
+}
+
