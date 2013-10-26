@@ -1,4 +1,7 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+    "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <script type="text/javascript" src="<%=$sub_page%>/js/jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="<%=$sub_page%>/js/galery.js"></script>
 <link rel="stylesheet" type="text/css" href="<%=$sub_page%>/css/galery.css">
@@ -16,7 +19,7 @@
   <img src="frank.jpg">
   <img src="udo.jpg">
   </div>
-  Klarheit und Tiefe sprechen aus den Fotografien der Brüder Frank und Udo Baldauf. Die gezielte Lichtführung verleiht den Fotos von Baldauf & Baldauf ihre Perfektion, ganz gleich, ob es sich um Architektur, Produkte oder Porträt handelt. Jahrelange Beleuchtungspraxis in großen Schauspiel- und Opernhäuser, wie den Bayreuther Festspielen, kommen bei den Bildern zum Tragen. Seit über 10 Jahren arbeiten die beiden Fotografen für zahlreiche führende Zeitschriften, wie die Süddeutsche Zeitung. Namenhafte Institutionen, wie das Sächsische Ministerium für Wirtschaft und Arbeit oder die Sächsische Aufbaubank sind von der Qualität der Bilder überzeugt. Firmen, wie AUDI, Schott-Zwiesel Kristallglas, Wempe oder der Baukonzern Klebl ließen bei Baldauf & Baldauf arbeiten. Bedeutende Ausstellungen schätzen die Fotografien von Baldauf & Baldauf. Die Gedenkstätte Flossenbürg, die Sie fotografisch begleiteten, erhielt den Bayrischen Museumspreis 2011. Ein eigenes Studio mit professionellster Aufnahmetechnik, ermöglicht u.a. Produkt-, Werbe- oder Imagefotografie auf höchstem Niveau. 
+  <%=$imported_text%>
   </div>
   <div style="clear:both"/>
 </div>

@@ -14,14 +14,17 @@ html, body {
   background-color:#000;
 }
 
+*.info_content img{
+}
+
 *.info_left {
   float:left;
-  width:10%;
-  padding:20px;
+  width:200px;
+  margin: 10px 0px 0px 10px;
   height:100%;
 }
 
 *.info_right {
   float:left;
-  width:79%;
+  width:780px;
 }

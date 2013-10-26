@@ -60,6 +60,7 @@ sub contact {
     industry => $self->industry,
     slogan  => $self->slogan,
     current_page => { contact => 'selected'},
+    imported_text    => $self->slurp('../info/contact.txt' ),
   );
 }
 
@@ -74,6 +75,7 @@ sub vita {
     industry => $self->industry,
     slogan  => $self->slogan,
     current_page => { vita => 'selected'},
+    imported_text    => $self->slurp('../info/vita.txt' ),
   );
 }
 
@@ -88,6 +90,7 @@ sub impressum {
     industry => $self->industry,
     slogan  => $self->slogan,
     current_page => { impressum => 'selected'},
+    imported_text    => $self->slurp('../info/impressum.txt' ),
   );
 }
 
@@ -102,6 +105,7 @@ sub referenzen {
     industry => $self->industry,
     slogan  => $self->slogan,
     current_page => { referenzen => 'selected'},
+    imported_text    => $self->slurp('../info/referenzen.txt' ),
   );
 }
 
@@ -115,6 +119,7 @@ sub galery {
 sub basedir {
   return File::Basename::dirname(__FILE__)."/../../public/galery" ,
 }
+
 
 sub company {
   my( $self ) = @_;
@@ -134,7 +139,10 @@ sub industry {
 sub slurp {
   my( $self,$file ) = @_;
   open my $fh, $self->basedir.'/'.$file or return'';
+  binmode( $fh );
+  use Encode qw(decode encode);
   $fh->read( my $buffer, -s $fh);
-  return $buffer;
+  $buffer = decode('UTF-8', $buffer, Encode::FB_CROAK);
+  return $buffer || '';;
 }
 1;
