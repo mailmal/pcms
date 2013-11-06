@@ -4,10 +4,10 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <script type="text/javascript" src="<%=$sub_page%>/js/jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="<%=$sub_page%>/js/galery.js"></script>
-<link rel="stylesheet" type="text/css" href="<%=$sub_page%>/css/galery.css">
 <link href='http://fonts.googleapis.com/css?family=Dosis:500' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="<%=$sub_page%>/css/info.css">
 <link rel="stylesheet" type="text/css" href="<%=$sub_page%>/css/contact.css">
+<link rel="stylesheet" type="text/css" href="<%=$sub_page%>/css/galery.css">
 %= include 'galery/navi'
 
 <div class="info_content">

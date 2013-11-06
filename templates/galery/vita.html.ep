@@ -8,6 +8,7 @@
 <link href='http://fonts.googleapis.com/css?family=Dosis:500' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="<%=$sub_page%>/css/info.css">
 <link rel="stylesheet" type="text/css" href="<%=$sub_page%>/css/contact.css">
+<link rel="stylesheet" type="text/css" href="<%=$sub_page%>/css/galery.css">
 %= include 'galery/navi'
 
 <div class="info_content">

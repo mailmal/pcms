@@ -1,6 +1,6 @@
 
 div.navi {
-  margin:50px auto 20px auto;
+  margin:70px auto 20px auto;
   width: 1004px;
 }
 
@@ -27,11 +27,11 @@ div.navi {
 
 
 div#header {
-  position:fixed;
+  position:absolute;
   top:50px;
   left:0px;
   right:0px;
-  width:800px;
+  width:1004px;
   margin: 0px auto;
 }
 
@@ -58,10 +58,6 @@ a {
 
 *.huge_text {
   font-size:16pt;
-}
-
-*.slogan {
-  font-size:9pt;
 }
 
 li.selected a{

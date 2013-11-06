@@ -4,11 +4,17 @@
 
 <div class="navi" >
   <a href="<%=$sub_page%>/index.html">
+  <div id="header">
     <div>
       <span style="color:black" class="huge_text"><%=$company%></span>
       <span class="huge_text"><%=$industry%></span><br>
       <span class="slogan medium_text"><%=$slogan%></span>
     </div>
+    <div id="information" class="transparent_little">
+       <a href="<%=$sub_page%>/impressum.html">IMPRESSUM</a>
+    </div>
+  </div>
+
   </a>
   <br><br>
   <ul>
