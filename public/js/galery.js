@@ -40,6 +40,14 @@ jQuery(function(){
       }
     });
     jQuery(window).resize(optimize_img);
+
+    jQuery('.picture_slide').on('swipeleft',function(){
+      next_image(1);
+    });
+
+    jQuery('.picture_slide').on('swiperight',function(){
+      next_image(0);
+    });
   
 });
 
