@@ -41,11 +41,11 @@ jQuery(function(){
     });
     jQuery(window).resize(optimize_img);
 
-    jQuery('.picture_slide').on('swipeleft',function(){
+    jQuery(document).on('swipeleft','.picture_slide',function(){
       next_image(1);
     });
 
-    jQuery('.picture_slide').on('swiperight',function(){
+    jQuery(document,).on('swiperight','.picture_slide',function(){
       next_image(0);
     });
   
