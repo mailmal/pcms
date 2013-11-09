@@ -45,7 +45,7 @@ jQuery(function(){
       next_image(1);
     });
 
-    jQuery(document,).on('swiperight','.picture_slide',function(){
+    jQuery(document).on('swiperight','.picture_slide',function(){
       next_image(0);
     });
   
