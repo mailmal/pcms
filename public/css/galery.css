@@ -47,20 +47,22 @@ div#header {
 
 div#header div#logo {
   position:absolute;
+  background-color:#323232;
   top:0px;
-  left:0px;
+  left:10px;
 }
 
 div#header div#information {
   position:absolute;
   top:0px;
-  right:0px;
+  right:10px;
   background-color:#323232;
   color:#fff
 }
 
 div#header *.slogan {
   display:block;
+  font-size:10.2pt;
 }
 
 *.huge_text {
@@ -262,7 +264,7 @@ div.real_content {
   background-color:#202020;
 }
 
-.transparent {
+*.transparent {
   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
   filter: alpha(opacity=85);
   -moz-opacity:0.85;
@@ -270,11 +272,19 @@ div.real_content {
   opacity: 0.85;
 }
 
-.transparent_little {
+*.transparent_little {
   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
   filter: alpha(opacity=80);
   -moz-opacity:0.80;
   -khtml-opacity: 0.80;
   opacity: 0.80;
+}
+
+*.transparent_very_little {
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=75);
+  -moz-opacity:0.75;
+  -khtml-opacity: 0.75;
+  opacity: 0.75;
 }
 

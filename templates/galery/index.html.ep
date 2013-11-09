@@ -49,14 +49,14 @@
 </div>
 
 <div id="header">
-  <div id="logo">
+  <div id="logo" class="transparent_very_little">
     <a href="<%=$sub_page%>/overview.html">
       <span style="color:black" class="huge_text"><%=$company%></span>
       <span class="huge_text"><%=$industry%></span>
       <span class="slogan medium_text"><%=$slogan%></span>
     </a>
   </div>
-  <div id="information" class="transparent_little">
+  <div id="information" class="transparent_very_little">
      <a href="<%=$sub_page%>/contact.html">Informationen/Impressum</a>
   </div>
 </div>
